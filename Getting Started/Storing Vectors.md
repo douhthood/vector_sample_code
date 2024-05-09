@@ -56,6 +56,6 @@ Update some vectors in tab2
 
 ```SQL
 UPDATE tab2 
-  SET V = '1.1, 2, 3.1415'
+  SET V = '[1.1, 2, 3.1415]'
 WHERE ID < 3;
 ```
