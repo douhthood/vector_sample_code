@@ -12,7 +12,7 @@ Insert vectors
 
 ```SQL
 INSERT INTO items VALUES ('[1,2,3]'),
-('[4,5,6]');
+                         ('[4,5,6]');
 ```
 
 Insert vectors
