@@ -28,11 +28,11 @@ You need to download the relevant RPMs.
 
 ### For Oracle Linux 8
 - [oracle-database-preinstall-23ai-1.0-1.4.**el8**.x86_64.rpm](https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-23ai-1.0-2.el8.x86_64.rpm)
-- oracle-database-ee-23ai-1.0-1.**el8**.x86_64.rpm
+- [oracle-database-ee-23ai-1.0-1.**el8**.x86_64.rpm](https://download.oracle.com/otn-pub/otn_software/db-free/oracle-database-free-23ai-1.0-1.el8.x86_64.rpm)
 
 ### For Oracle Linux 9
-- oracle-database-preinstall-23ai-1.0-1.4.**el9**.x86_64.rpm
-- oracle-database-ee-23ai-1.0-1.**el9**.x86_64.rpm
+- [oracle-database-preinstall-23ai-1.0-1.4.**el9**.x86_64.rpm](https://yum.oracle.com/repo/OracleLinux/OL9/appstream/x86_64/getPackage/oracle-database-preinstall-23ai-1.0-2.el9.x86_64.rpm)
+- [oracle-database-ee-23ai-1.0-1.**el9**.x86_64.rpm](https://download.oracle.com/otn-pub/otn_software/db-free/oracle-database-free-23ai-1.0-1.el9.x86_64.rpm)
 
 
 ## Install RPMs
