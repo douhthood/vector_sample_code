@@ -7,6 +7,8 @@ The HNSW vector indexes in **Oracle AI Vector Search** are called **InMemory Nei
 
 <img src="images/HNSW.png" width="512" alt="HNSW"/>
 
+This type of index provides the fastest possible response time when all the data can fit within memory.  
+
 HNSW vector indexes are faster than IVFFlat vector indexes, but they have two downsides:
 - The entire HNSW vector index must fit with RAM
 - They tend take longer to create than IVFFlat indexes
