@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.oracle.database.jdbc</groupId>
+        <artifactId>ojdbc-vector-examples</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>ojdbc-vector-examples-onnx</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc-vector-examples-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.onnxruntime</groupId>
+            <artifactId>onnxruntime</artifactId>
+            <!-- Use this _gpu variant instead, if your system has a GPU:
+            <artifactId>onnxruntime_gpu</artifactId>
+            -->
+            <version>1.16.3</version>
+        </dependency>
+        <!--
+        NOTE: As of February 2024, this jar is NOT on Maven Central.
+        It needs to be built and installed locally. To do that, try running the
+        install-extensions.sh script, which is in the same directory as this
+         pom.xml.
+        -->
+        <dependency>
+            <groupId>com.microsoft.onnxruntime</groupId>
+            <artifactId>onnxruntime-extensions</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
