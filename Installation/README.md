@@ -11,7 +11,7 @@ Oracle Database 23ai includes support for Oracle AI Vector Search. These instruc
 
 
 ## Prerequisites
-- You can use either Oracle Linux 8.8+ or Oracle Linux 9.1+.
+- You can use either **Oracle Linux 8.8+** or **Oracle Linux 9.1+**.
   - Red Hat Linux 8.8+ or 9.1+ will also work
   - AlmaLinux 8.8+ or 9.1+ will also work
   - Rocky Linux 8.8+ or 9.1+ will also work
