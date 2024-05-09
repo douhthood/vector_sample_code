@@ -4,7 +4,7 @@
 
 ![HNSW](images/HNSW.png)
 
-<img src="images/HNSW.png" width="128"/>
+<img src="images/HNSW.png" width="512"/>
 
 HNSW vector indexes are faster than IVFFlat vector indexes, but they have two downsides:
 - The entire HNSW vector index must fit with RAM
