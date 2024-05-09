@@ -18,14 +18,46 @@ DISTANCE COSINE
 PARALLEL 4;
 ```
 
-Comments on the flex3_embedding_hnsw vector index:
+```SQL
+CREATE VECTOR INDEX hnsw2 ON flex3 (embedding)
+ORGANIZATION INMEMORY NEIGHBOR GRAPH
+WITH TARGET ACCURACY 95
+DISTANCE DOT
+PARALLEL 16;
+```
+
+```SQL
+CREATE VECTOR INDEX hnsw3 ON flex3 (embedding)
+ORGANIZATION INMEMORY NEIGHBOR GRAPH
+WITH TARGET ACCURACY 80
+DISTANCE EUCLIDEAN
+PARALLEL 32;
+```
+
+```SQL
+CREATE VECTOR INDEX hnsw2 ON flex4 (embedding)
+ORGANIZATION INMEMORY NEIGHBOR GRAPH
+WITH TARGET ACCURACY 85
+DISTANCE MANHATTAN
+PARALLEL 64;
+```
+
+```SQL
+CREATE VECTOR INDEX hnsw2 ON flex5 (embedding)
+ORGANIZATION INMEMORY NEIGHBOR GRAPH
+WITH TARGET ACCURACY 80
+DISTANCE HAMMING
+PARALLEL 128;
+```
+
+Comments on creating HNSW vector indexes:
 - The VECTOR keyword is used to create vector indexes
   - Vector indexes are fundamentally different from existing indexes 
 - The organization is INMEMORY NEIGHBOR GRAPH for HNSW vector indexes
   - The origanizations clause defines the type of graph  
 - The WITH TARGET ACCURACY clause is used
   - This clauses defines the default accuracy for this vector index
-  - 90 means that about 9/10 times, this will give the same resultset as if a exact query were used
+  - eg 90 means that about 9/10 times, this will give the same resultset as if a exact query were used
 - The distance function (COSINE) is defined
   - The vector embedding model defines the distance function used to train the neural network
   - Use the **same** vector distance function in the vector index to get the best results
