@@ -9,7 +9,7 @@
 - Vector
 - Performance Optimization
 - Languages
-- Vector Type
+- [Vector Type](Vector%20Type.md)
 - Vector Functions
 - Trouble Shooting
 
