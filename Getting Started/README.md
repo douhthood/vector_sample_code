@@ -3,9 +3,15 @@
 ## Getting Started
 All Oracle Database 23ai databases can use AI Vector Search.
 
-Create a table with a vector with 3 dimensions  
+Create a table with a vector  
 ```SQL
-CREATE TABLE items (id NUMBER PRIMARY KEY, embedding VECTOR(3,*));
+CREATE TABLE items (id NUMBER PRIMARY KEY, embedding VECTOR);
+```
+
+Insert vectors
+
+```SQL
+INSERT INTO items (embedding) VALUES ('[1,2,3]'), ('[4,5,6]');
 ```
 
     
