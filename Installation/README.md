@@ -35,10 +35,12 @@ You need to use the el8 RPMs on Oracle Linux 8, and the el9 RPMs on Oracle Linux
 This install is using Oracle Linux 8.9 and is using the corresponding el8 RPMs:
 
 As a Linux user who has the sudo privilege install the pre-install RPM:
+
 `sudo dnf install -y oracle-database-preinstall*` 
 
 As a Linux user who has the sudo privilege install the database-free-23ai RPM:
-sudo dnf install -y oracle-database-free* 
+
+`sudo dnf install -y oracle-database-free*` 
 
 ## Configure Instance
 As a Linux user who has the sudo privilege, configure the instance:
