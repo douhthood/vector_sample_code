@@ -2,10 +2,10 @@
 
 ## Contents
 - [Getting Started](Getting%20Started.md)
-- [Storing](Storing%20Vectors.md)
-- [Querying](Querying%20Vectors.md) 
-- [Indexing](Vector%20Indexes.md) 
-- Filtering 
+- [Storing Vectors](Storing%20Vectors.md)
+- [Querying Vectors](Querying%20Vectors.md) 
+- [Indexing Vectors](Vector%20Indexes.md) 
+- Filtering Vectors
 - Vector
 - Performance Optimization
 - Languages
