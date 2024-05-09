@@ -9,4 +9,4 @@ See [FAQ](FAQ/faq.md)
 
 See [Oracle AI Vector Search User's Guide](https://docs.oracle.com/en/database/oracle/oracle-database/23/vecse/index.html)
 
-Some other stuff.
+Some [vector blogs](https://blogs.oracle.com/database/post/oracle-announces-general-availability-of-ai-vector-search-in-oracle-database-23ai).
