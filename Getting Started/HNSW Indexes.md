@@ -2,9 +2,7 @@
 
 [Hierarchial Navigable Small World](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/create-vector-index.html#GUID-B396C369-54BB-4098-A0DD-7C54B3A0D66F) (HNSW) are fast, memory based, proximity graph, vector indexes.
 
-![HNSW](images/HNSW.png)
-
-<img src="images/HNSW.png" width="512"/>
+<img src="images/HNSW.png" width="512" alt="HNSW"/>
 
 HNSW vector indexes are faster than IVFFlat vector indexes, but they have two downsides:
 - The entire HNSW vector index must fit with RAM
