@@ -1,4 +1,4 @@
-# Oracle AI Vector Search
+# Getting Started with Oracle AI Vector Search
 
 ## Contents
 - Getting Started
