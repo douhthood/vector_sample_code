@@ -28,3 +28,4 @@ FETCH FIRST 3 ROWS ONLY;
 ```
 
 See [Vector Distance Functions](Vector%20Distance%20Functions.md) for more options.
+See [Equivalent Distance Functions](Equivalent%20Distance%20Functions.md) for more options.
