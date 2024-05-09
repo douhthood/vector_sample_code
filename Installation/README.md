@@ -70,39 +70,39 @@ Set the environment for the oracle user.
 ## Create DB user
 Connect to the default Oracle 23ai PDB service and create a database user.
 
-sqlplus sys@localhost:1521/freepdb1 as sysdba
+`sqlplus sys@localhost:1521/freepdb1 as sysdba`  
 
-create user vector identified by vector
-default tablespace users 
-quota unlimited on users;
+`create user vector identified by vector`  
+`default tablespace users`   
+`quota unlimited on users;`
 
-grant DB_DEVELOPER_ROLE to vector;
+`grant DB_DEVELOPER_ROLE to vector;`
 
-exit;
+`exit;`
 
 ## Configure Oracle Net
 Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for example:
 
-vi $ORACLE_HOME/network/admin/tnsnames.ora 
+`vi $ORACLE_HOME/network/admin/tnsnames.ora`   
 
 ## Connect with SqlPlus
 You should now be able to connect to your 23ai database service via either:
 
-sqlplus vector/vector@localhost:1521/freepdb1 
-or
-sqlplus vector/vector@freepdb1 
+`sqlplus vector/vector@localhost:1521/freepdb1`   
+or  
+`sqlplus vector/vector@freepdb1` 
 
 
 ## Create some vectors
 Now you can create a table with vectors.
 
-sqlplus vector/vector@freepdb1 
-create table t1 (v vector);
-desc t1;
-insert into t1 values ('[1.1, 2.2, 3.1415]');
-select * from t1;
-update t1 set v = '[42.69]';
-drop table t1;
+`sqlplus vector/vector@freepdb1`   
+`create table t1 (v vector);`  
+`desc t1;`  
+`insert into t1 values ('[1.1, 2.2, 3.1415]');`  
+`select * from t1;`  
+`update t1 set v = '[42.69]';`  
+`drop table t1;`
 
 
 
