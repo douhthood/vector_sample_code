@@ -46,12 +46,19 @@ WHERE embedding <-> '[3,1,2]' < 5;
 ```
 
 Use the equivalent syntax to get rows within a certain distance
+
 ```SQL
 SELECT * 
 FROM flex3
 WHERE VECTOR_DISTANCE(embedding, VECTOR('[3,1,2]'), EUCLIDEAN) < 5;
 ```
 
+## SQL Aggregates with Vectors
+Average vectors
+
+```SQL
+SELECT AVG(embedding) FROM flex3;
+```
 
 See [Vector Distance Functions](Vector%20Distance%20Functions.md) for more options.
 
