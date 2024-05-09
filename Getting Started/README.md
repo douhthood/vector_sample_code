@@ -32,7 +32,42 @@ FROM items
 ORDER BY vector_distance(embedding, vector('[3,1,2]'), EUCLIDEAN)
 FETCH FIRST 3 ROWS ONLY;
 ```
-    
+
+Get the nearest neighbors by Cosine Similarity distance
+
+```SQL
+SELECT *
+FROM items
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), COSINE)
+FETCH FIRST 3 ROWS ONLY;
+```
+
+Get the nearest neighbors by Dot Product distance
+
+```SQL
+SELECT *
+FROM items
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), DOT)
+FETCH FIRST 3 ROWS ONLY;
+```
+
+Get the nearest neighbors by Manhattan distance
+
+```SQL
+SELECT *
+FROM items
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), MANHATTAN)
+FETCH FIRST 3 ROWS ONLY;
+```
+
+Get the nearest neighbors by Hamming distance
+
+```SQL
+SELECT *
+FROM items
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), HAMMING)
+FETCH FIRST 3 ROWS ONLY;
+```
 
 ## Storing
 Storing stuff
