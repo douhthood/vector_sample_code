@@ -35,9 +35,19 @@ Insert some vectors into tab2
 
 ```SQL
 INSERT INTO tab2 VALUES
-  (1, '[1,2,3]'),
-  (2, '[4,5,6]'),
+  (1, '[1.1,2.2,3.3]'),
+  (2, '[4.0,5.1,6.2]'),
   (3, '[7,8,9]'),
   (4, '[7.1,5,6.3]'),
   (5, '[9,7,8]');
+```
+
+Use SQL MERGE for some vectors
+
+```SQL
+MERGE INTO tab1
+USING (SELECT * FROM tab2) t2
+ON tab1.id = t2.id
+WHEN MATCHED THEN UPDATE SET t1.embedding = t2.v
+WHEN NOT MATCHED THEN INSERT VALUES (t2.id, t2.v);
 ```
