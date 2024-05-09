@@ -9,10 +9,10 @@ HNSW vector indexes are faster than IVFFlat vector indexes, but they have two do
 ## Some examples of creating HNSW vector indexes
 
 ```SQL
-CREATE VECTOR INDEX t1_v2_hnsw ON flex3 (embedding)
+CREATE VECTOR INDEX flex3_embedding_hnsw ON flex3 (embedding)
 ORGANIZATION INMEMORY NEIGHBOR GRAPH
 WITH TARGET ACCURACY 95
-DISTANCE DOT
+DISTANCE COSINE
 PARALLEL 4;
 ```
 
