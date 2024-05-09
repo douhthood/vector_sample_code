@@ -29,3 +29,71 @@ You need to download the relevant RPMs.
 - oracle-database-ee-23ai-1.0-1.el9.x86_64.rpm
 
 
+## Install RPMs
+You need to use the el8 RPMs on Oracle Linux 8, and the el9 RPMs on Oracle Linux 9, else it will not work.
+
+This install is using Oracle Linux 8.9 and is using the corresponding el8 RPMs:
+
+As a Linux user who has the sudo privilege install the pre-install RPM:
+sudo dnf install -y oracle-database-preinstall* 
+
+As a Linux user who has the sudo privilege install the database-free-23ai RPM:
+sudo dnf install -y oracle-database-free* 
+
+## Configure Instance
+As a Linux user who has the sudo privilege, configure the instance:
+sudo /etc/init.d/oracle-free-23ai configure 
+
+## Change to the oracle User
+A side effect of installing the Oracle database was creating an oracle user on Linux.
+Change to the oracle user.
+
+sudo su
+su – oracle
+
+Set the environment for the oracle user.
+export ORACLE_SID=FREE
+export ORAENV_ASK=NO
+. /opt/oracle/product/23ai/dbhomeFree/bin/oraenv 
+
+## Create DB user
+Connect to the default Oracle 23ai PDB service and create a database user.
+
+sqlplus sys@localhost:1521/freepdb1 as sysdba
+
+create user vector identified by vector
+default tablespace users 
+quota unlimited on users;
+
+grant DB_DEVELOPER_ROLE to vector;
+
+exit;
+
+## Configure Oracle Net
+Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for example:
+
+vi $ORACLE_HOME/network/admin/tnsnames.ora 
+
+## Connect with SqlPlus
+You should now be able to connect to your 23ai database service via either:
+
+sqlplus vector/vector@localhost:1521/freepdb1 
+or
+sqlplus vector/vector@freepdb1 
+
+
+## Create some vectors
+Now you can create a table with vectors.
+
+sqlplus vector/vector@freepdb1 
+create table t1 (v vector);
+desc t1;
+insert into t1 values ('[1.1, 2.2, 3.1415]');
+select * from t1;
+update t1 set v = '[42.69]';
+drop table t1;
+
+
+
+
+
