@@ -15,7 +15,7 @@ Oracle Database 23ai includes support for Oracle AI Vector Search. These instruc
   - Red Hat Linux 8.8+ or 9.1+ will also work
   - AlmaLinux 8.8+ or 9.1+ will also work
   - Rocky Linux 8.8+ or 9.1+ will also work
-  - Oracle Linux 7.x, SuSE Linux and Debian/Ubuntu will not work due to RPM dependencies
+  - Oracle Linux 7.x, SuSE Linux and Debian/Ubuntu **will not work** due to RPM dependencies
 - Your Linux VM should have 4+ GB of RAM.
 - You will need 20+ GB of disk space
 - You will want at least 2 CPU cores
