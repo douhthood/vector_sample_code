@@ -3,10 +3,12 @@
 ## Introduction
 Oracle Database 23ai includes support for Oracle AI Vector Search. These instructions show you how to install Oracle Database 23ai Free. Some trivial vector operations are used to verify that vectors are working on this database instance. 
  
+
 ## Oracle Database 23ai Free resource limits:
 - 2 CPUs for foreground processes
 - 2GB of RAM (SGA and PGA combined)
 - 12GB of user data on disk (irrespective of compression factor)
+
 
 ## Prerequisites
 - You can use either Oracle Linux 8.8+ or Oracle Linux 9.1+.
@@ -16,6 +18,7 @@ Oracle Database 23ai includes support for Oracle AI Vector Search. These instruc
 - You will want at least 2 CPU cores
 
 You can install Oracle Database 23ai Free on a VM in your x8664 laptop, in your data center, or in Oracle Cloud compute nodes.
+
 
 ## Download RPMs
 You need to download the relevant RPMs.
@@ -42,16 +45,19 @@ As a Linux user who has the sudo privilege install the database-free-23ai RPM:
 
 `sudo dnf install -y oracle-database-free*` 
 
+
 ## Configure Instance
 As a Linux user who has the sudo privilege, configure the instance:
-sudo /etc/init.d/oracle-free-23ai configure 
+
+`sudo /etc/init.d/oracle-free-23ai configure` 
+
 
 ## Change to the oracle User
 A side effect of installing the Oracle database was creating an oracle user on Linux.
 Change to the oracle user.
 
-sudo su
-su – oracle
+`sudo su
+su – oracle`
 
 Set the environment for the oracle user.
 export ORACLE_SID=FREE
