@@ -13,14 +13,21 @@ You must allocate sufficent memory for the [VECTOR_MEMORY_SIZE](../Installation/
 ```SQL
 CREATE VECTOR INDEX flex3_embedding_hnsw ON flex3 (embedding)
 ORGANIZATION INMEMORY NEIGHBOR GRAPH
-WITH TARGET ACCURACY 95
+WITH TARGET ACCURACY 90
 DISTANCE COSINE
 PARALLEL 4;
 ```
 
 Comments on the flex3_embedding_hnsw vector index:
 - The VECTOR keyword is used to create vector indexes
+  - Vector indexes are fundamentally different from existing indexes 
 - The organization is INMEMORY NEIGHBOR GRAPH for HNSW vector indexes
+  - The origanizations clause defines the type of graph  
 - The WITH TARGET ACCURACY clause is used
+  - This clauses defines the default accuracy for this vector index
+  - 90 means that about 9/10 times, this will give the same resultset as if a exact query were used
 - The distance function (COSINE) is defined
+  - The vector embedding model defines the distance function used to train the neural network
+  - Use the **same** vector distance function in the vector index to get the best results
 - The vector index is created in parallel
+  - Given sufficient available CPU cores, increasing the PARALLEL clause will tend to decrease the vector index creation time
