@@ -10,6 +10,6 @@ Oracle AI Vector Search makes it simple to define the accuracy vs performance tr
 
 Oracle AI Vector Search supports two types of vector indexes:
 - [HNSW](HNSW%20Indexes.md)
-- [IVFFlat](IVFFlat%20Indexes)
+- [IVFFlat](IVFFlat%20Indexes.md)
 
   
