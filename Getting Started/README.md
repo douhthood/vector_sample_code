@@ -8,18 +8,17 @@ Create a table with a vector
 CREATE TABLE items (embedding VECTOR);
 ```
 
-Insert vectors
+Insert some vectors
 
 ```SQL
 INSERT INTO items VALUES ('[1,2,3]'),
                          ('[4,5,6]');
 ```
 
-Insert vectors
+Get the nearest neighbors by L2 distance
 
 ```SQL
-INSERT INTO items VALUES (1, '[1,2,3]');
-INSERT INTO items VALUES (2, '[4,5,6]');
+SELECT * FROM items ORDER BY embedding <-> '[3,1,2]';
 ```
 
     
