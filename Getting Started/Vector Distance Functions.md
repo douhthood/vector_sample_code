@@ -78,3 +78,12 @@ FROM flex2
 ORDER BY embedding <-> '[3,1,2]'
 FETCH FIRST 3 ROWS ONLY;
 ```
+
+Get the nearest neighbors by Cosine Similarity
+
+```SQL
+SELECT *
+FROM flex2
+ORDER BY embedding <=> '[3,1,2]'
+FETCH FIRST 3 ROWS ONLY;
+```
