@@ -3,7 +3,7 @@
 ## Contents
 - [Getting Started](Getting%20Started.md)
 - [Storing](Storing%20Vectors.md)
-- Querying 
+- [Querying](Querying%20Vectors.md) 
 - Indexing 
 - Filtering 
 - Vector
