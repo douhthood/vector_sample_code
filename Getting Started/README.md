@@ -4,7 +4,7 @@
 - [Getting Started](Getting%20Started.md)
 - [Storing](Storing%20Vectors.md)
 - [Querying](Querying%20Vectors.md) 
-- Indexing 
+- [Indexing](Vector%20Indexes.md) 
 - Filtering 
 - Vector
 - Performance Optimization
