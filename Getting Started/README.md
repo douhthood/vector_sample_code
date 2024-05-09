@@ -5,7 +5,14 @@ All **Oracle Database 23ai** databases can use AI Vector Search.
 
 Create a table with a vector  
 ```SQL
-CREATE TABLE items (id NUMBER PRIMARY KEY, embedding VECTOR);
+CREATE TABLE items (embedding VECTOR);
+```
+
+Insert vectors
+
+```SQL
+INSERT INTO items VALUES ('[1,2,3]'),
+('[4,5,6]');
 ```
 
 Insert vectors
