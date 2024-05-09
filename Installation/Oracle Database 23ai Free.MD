@@ -1,3 +1,3 @@
-#Installing Oracle Database 23ai
+# Installing Oracle Database 23ai
 
 This is how we do it
