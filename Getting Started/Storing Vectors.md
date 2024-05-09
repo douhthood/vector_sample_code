@@ -7,7 +7,7 @@ CREATE TABLE tab1 (
   embedding VECTOR);
 ```
 
-Insert some vectors
+Insert some vectors into tab1
 
 ```SQL
 INSERT INTO tab1 VALUES
@@ -28,4 +28,15 @@ CREATE TABLE tab2 (
 Add a vector column to the existing table
 ```SQL
 ALTER TABLE tab2 ADD v VECTOR;
+```
+
+Insert some vectors into tab2
+
+```SQL
+INSERT INTO tab2 VALUES
+  (1, '[1,2,3]'),
+  (2, '[4,5,6]'),
+  (3, '[7,8,9]'),
+  (4, '[7.1,5,6.3]'),
+  (5, '[9,7,8]');
 ```
