@@ -73,6 +73,6 @@ Comments on creating IVFFlat vector indexes:
   - eg 80 means that about 8/10 times, this will give the same resultset as if a exact query were used
 - The distance function (eg COSINE) is defined
   - The vector embedding model defines the distance function used to train the neural network
-  - Use the same vector distance function in the vector index to get the best results
+  - Use the **same** vector distance function in the vector index to get the best results
 - The vector index can be created in parallel
   - Given sufficient available CPU cores, increasing the PARALLEL clause will tend to decrease the vector index creation time
