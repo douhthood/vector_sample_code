@@ -2,6 +2,6 @@
 
 Stuff
 
-<img src="images/IVFFLat.png" width="384" alt="IVFFlat"/>
+<img src="images/IVFFlat.png" width="384" alt="IVFFlat"/>
 
 other stuff
