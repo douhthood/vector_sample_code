@@ -12,7 +12,10 @@ Insert some vectors
 
 ```SQL
 INSERT INTO flex1 VALUES ('[1,2,3]'),
-                         ('[4,5,6]');
+                         ('[4,5,6]'),
+                         ('[7,8,9]'),
+                         ('[7.1,5,6.3]'),
+                         ('[9,7,8]');
 ```
 
 Get the nearest neighbors by L2 distance
