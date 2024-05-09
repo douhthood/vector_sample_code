@@ -1,7 +1,7 @@
 # Oracle AI Vector Search
 
 ## Getting Started
-All Oracle Database 23ai databases can use AI Vector Search.
+All **Oracle Database 23ai** databases can use AI Vector Search.
 
 Create a table with a vector  
 ```SQL
