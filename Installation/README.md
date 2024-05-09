@@ -83,7 +83,7 @@ Connect to the default Oracle 23ai PDB service and create a database user.
 
 `exit;`
 
-## Allocate memory for VECTOR_MEMORY_SIZE
+## <a name="VECTOR_MEMORY_SIZE"></a> Allocate memory for VECTOR_MEMORY_SIZE
 Connect to the Container Database as /, allocate memory to vector pool and bounce the database.
 
 `sqlplus / as sysdba`  
