@@ -1,4 +1,7 @@
-# Getting Started with Oracle AI Vector Search
+# Oracle AI Vector Search
 
-## stuff
-hello
+## Getting Started
+Table stuff
+
+## Storing
+Storing stuff
