@@ -13,9 +13,9 @@ Insert some vectors
 
 ```SQL
 INSERT INTO flex3 VALUES (1, '[1,2,3]');
-INSERT INTO flex3 VALUES (2, '[4,5,6]'),
-INSERT INTO flex3 VALUES (3, '[7,8,9]'),
-INSERT INTO flex3 VALUES (4, '[7.1,5,6.3]'),
+INSERT INTO flex3 VALUES (2, '[4,5,6]');
+INSERT INTO flex3 VALUES (3, '[7,8,9]');
+INSERT INTO flex3 VALUES (4, '[7.1,5,6.3]');
 INSERT INTO flex3 VALUES (5, '[9,7,8]');
 ```
 
