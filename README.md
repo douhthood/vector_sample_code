@@ -7,4 +7,6 @@ See [how to install AI Vector Search via Oracle Database 23ai Free](Installation
 
 See [FAQ](FAQ/faq.md)
 
+See [Oracle AI Vector Search User's Guide](https://docs.oracle.com/en/database/oracle/oracle-database/23/vecse/index.html)
+
 Some other stuff.
