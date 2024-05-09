@@ -21,6 +21,12 @@ ORGANIZATION NEIGHBOR PARTITONS
 WITH TARGET ACCURACY 90
 DISTANCE COSINE
 PARALLEL 4;
+
+create vector index flex3_embedding_ivfflat on flex3 (embedding)
+ORGANIZATION NEIGHBOR PARTITIONS
+target accuracy 95
+distance cosine
+parallel 64;
 ```
 
 ```SQL
