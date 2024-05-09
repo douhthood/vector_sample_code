@@ -18,3 +18,13 @@ INSERT INTO tab1 VALUES
   (5, '[9,7,8]');
 ```
 
+Create a new table without a vector column 
+```SQL
+CREATE TABLE tab2 (
+  id NUMBER;
+```
+
+Add a vector column to the existing table
+```SQL
+ALTER TABLE tab1 ADD COLUMN v VECTOR;
+```
