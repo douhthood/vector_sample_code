@@ -95,8 +95,8 @@ Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for 
 `  (DESCRIPTION =`  
   `  (ADDRESS = (PROTOCOL = TCP)(HOST = Your_23ai_hostname_or_IP_Address)(PORT = 1521))`  
   `  (CONNECT_DATA =`  
-    `  (SERVER = DEDICATED)`  
-    `  (SERVICE_NAME = freepdb1)`  
+    `    (SERVER = DEDICATED)`  
+    `    (SERVICE_NAME = freepdb1)`  
    `  )`  
   `)`
 
