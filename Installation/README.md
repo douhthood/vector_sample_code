@@ -83,6 +83,20 @@ Connect to the default Oracle 23ai PDB service and create a database user.
 
 `exit;`
 
+## Allocate memory for VECTOR_MEMORY_SIZE
+Connect to the Container Database as /, allocate memory to vector pool and bounce the database.
+
+`sqlplus / as sysdba`  
+
+`create pfile from spfile;`  
+`ALTER SYSTEM SET vector_memory_size = 500M SCOPE=SPFILE;`   
+`shutdown`
+`startup`
+`shutdown`
+`show parameter vector_memory_size;`
+`alter pluggable database all open;`
+`exit;`
+
 ## Configure Oracle Net
 Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for example:
 
