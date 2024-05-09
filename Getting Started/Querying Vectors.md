@@ -37,4 +37,13 @@ WHERE id != 1 ORDER BY embedding <-> (SELECT embedding FROM flex3 WHERE id = 1)
 FETCH FIRST 3 ROWS ONLY;
 ```
 
+Get rows within a certain distance
+
+```SQL
+SELECT * 
+FROM flex3
+WHERE embedding <-> '[3,1,2]' < 5;
+```
+
+
 See [Vector Distance Functions](Vector%20Distance%20Functions.md) for more options.
