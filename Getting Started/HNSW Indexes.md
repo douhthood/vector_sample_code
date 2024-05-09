@@ -6,10 +6,13 @@ HNSW vector indexes are faster than IVFFlat vector indexes, but they have two do
 - The entire HNSW vector index must fit with RAM
 - They tend take longer to create than IVFFlat indexes
 
-There are three forms of syntax for creating HNSW vector indexes:
-- Basic - uses defaults
-- Define the WITH TARGET ACCURACY clauses
-- Use the Options clause
+## Some examples of creating HNSW vector indexes
 
-I recommend using the WITH TARGET ACCURACY clause as it is simple and will tend to give the best performance.
+```SQL
+create vector index t1_v2_hnsw on t1 (v2)
+organization inmemory neighbor graph
+with target accuracy 95
+distance dot
+parallel 32;
+```
 
