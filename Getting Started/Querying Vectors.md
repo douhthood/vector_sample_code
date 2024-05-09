@@ -45,6 +45,7 @@ FROM flex3
 WHERE embedding <-> '[3,1,2]' < 5;
 ```
 
+Use the equivalent syntax to get rows within a certain distance
 ```SQL
 SELECT * 
 FROM flex3
