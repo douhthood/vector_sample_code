@@ -27,12 +27,12 @@ You can install Oracle Database 23ai Free on a VM in your x8664 laptop, in your 
 You need to download the relevant RPMs.
 
 ### For Oracle Linux 8
-- oracle-database-preinstall-23ai-1.0-1.4.el8.x86_64.rpm
-- oracle-database-ee-23ai-1.0-1.el8.x86_64.rpm
+- oracle-database-preinstall-23ai-1.0-1.4.**el8**.x86_64.rpm
+- oracle-database-ee-23ai-1.0-1.**el8**.x86_64.rpm
 
 ### For Oracle Linux 9
-- oracle-database-preinstall-23ai-1.0-1.4.el9.x86_64.rpm
-- oracle-database-ee-23ai-1.0-1.el9.x86_64.rpm
+- oracle-database-preinstall-23ai-1.0-1.4.**el9**.x86_64.rpm
+- oracle-database-ee-23ai-1.0-1.**el9**.x86_64.rpm
 
 
 ## Install RPMs
