@@ -27,5 +27,5 @@ CREATE TABLE tab2 (
 
 Add a vector column to the existing table
 ```SQL
-ALTER TABLE tab1 ADD COLUMN v VECTOR;
+ALTER TABLE tab2 ADD COLUMN v VECTOR;
 ```
