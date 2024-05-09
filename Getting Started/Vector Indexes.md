@@ -8,7 +8,9 @@ ANN algoirthms are an accuracy vs performance tradeoff.  This means that you giv
 
 Oracle AI Vector Search makes it simple to define the accuracy vs performance tradeoff via the [WITH TARGET ACCURACY](With%20Target%20Accuracy.md) clause in the vector index and/or the vector distance SQL query.
 
-Oracle AI Vector Search support two types of vector indexes:
+You must allocate sufficent memory for the VECTOR_MEMORY_SIZE parameter to be able to use the HNSW vector indexes.
+
+Oracle AI Vector Search supports two types of vector indexes:
 - [HNSW](HNSW%20Indexes.md)
 - [IVFFlat](IVFFlat%20Indexes)
 
