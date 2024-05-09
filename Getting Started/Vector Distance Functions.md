@@ -69,30 +69,3 @@ FROM flex2
 ORDER BY vector_distance(embedding, vector('[3,1,2]'), HAMMING)
 FETCH FIRST 3 ROWS ONLY;
 ```
-
-Get the nearest neighbors by L2 distance (L2 = Euclidean distance)
-
-```SQL
-SELECT *
-FROM flex2
-ORDER BY embedding <-> '[3,1,2]'
-FETCH FIRST 3 ROWS ONLY;
-```
-
-Get the nearest neighbors by Cosine Similarity
-
-```SQL
-SELECT *
-FROM flex2
-ORDER BY embedding <=> '[3,1,2]'
-FETCH FIRST 3 ROWS ONLY;
-```
-
-Get the nearest neighbors by Negative Dot Product
-
-```SQL
-SELECT *
-FROM flex2
-ORDER BY embedding <#> '[3,1,2]'
-FETCH FIRST 3 ROWS ONLY;
-```
