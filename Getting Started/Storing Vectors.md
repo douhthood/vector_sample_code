@@ -21,7 +21,8 @@ INSERT INTO tab1 VALUES
 Create a new table without a vector column 
 ```SQL
 CREATE TABLE tab2 (
-  id NUMBER;
+  id NUMBER
+);
 ```
 
 Add a vector column to the existing table
