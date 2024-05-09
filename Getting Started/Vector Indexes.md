@@ -13,5 +13,6 @@ Oracle AI Vector Search supports two types of vector indexes:
 - [IVFFlat](IVFFlat%20Indexes.md)
 
 ### Vector speed vs size trade off
+HNSW and IVFFlat vector indexes have different engineering tradeoffs.
 <img src="images/hnsw_ivfflat_pro_cons.png" width="384" alt="speed size trade off"/>
 
