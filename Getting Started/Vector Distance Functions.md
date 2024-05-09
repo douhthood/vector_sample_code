@@ -34,6 +34,15 @@ ORDER BY vector_distance(embedding, vector('[3,1,2]'), EUCLIDEAN)
 FETCH FIRST 3 ROWS ONLY;
 ```
 
+Get the nearest neighbors by Euclidean Squared distance (avoid calculating the square root for better performance)
+
+```SQL
+SELECT *
+FROM flex2
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), EUCLIDEAN_SQUARED)
+FETCH FIRST 3 ROWS ONLY;
+```
+
 Get the nearest neighbors by Cosine Similarity distance
 
 ```SQL
