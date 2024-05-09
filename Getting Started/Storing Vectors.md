@@ -47,7 +47,7 @@ Use SQL MERGE for some vectors
 ```SQL
 MERGE INTO tab1
 USING (SELECT * FROM tab2) t2
-ON tab1.id = t2.id
+ON (tab1.id = t2.id)
 WHEN MATCHED THEN UPDATE SET t1.embedding = t2.v
 WHEN NOT MATCHED THEN INSERT VALUES (t2.id, t2.v);
 ```
