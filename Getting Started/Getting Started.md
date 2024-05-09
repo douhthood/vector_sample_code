@@ -18,7 +18,7 @@ INSERT INTO flex1 VALUES ('[1,2,3]'),
                          ('[9,7,8]');
 ```
 
-Get the nearest neighbors by Euclidean distance (L2 = Euclidean)
+Get the nearest neighbors by Euclidean distance (Euclidean = L2 distance)
 
 ```SQL
 SELECT *
