@@ -1,7 +1,10 @@
 # Oracle AI Vector Search
 
 ## Getting Started
-Table stuff
+All Oracle Database 23ai instances can use AI Vector Search.
+
+Create a table with a vector with 3 dimensions
+`CREATE TABLE items (id bigserial PRIMARY KEY, embedding vector(3));`
 
 ## Storing
 Storing stuff
