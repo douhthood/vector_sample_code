@@ -18,3 +18,9 @@ DISTANCE COSINE
 PARALLEL 4;
 ```
 
+Comments on the flex3_embedding_hnsw vector index:
+- The VECTOR keyword is used to create vector indexes
+- The organization is INMEMORY NEIGHBOR GRAPH for HNSW vector indexes
+- The WITH TARGET ACCURACY clause is used
+- The distance function (COSINE) is defined
+- The vector index is created in parallel
