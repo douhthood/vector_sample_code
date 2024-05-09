@@ -63,3 +63,16 @@ PARALLEL 32;
 DROP INDEX ivfflat4;
 ```
 
+Comments on creating IVFFlat vector indexes:
+- The VECTOR keyword is used to create vector indexes
+  - Vector indexes are fundamentally different from existing indexes
+- The organization is NEIGHBOR PARTITIONS for IVFFlat vector indexes
+  - The organizations clause defines the type of index
+- The WITH TARGET ACCURACY clause is used
+  - This clauses defines the default accuracy for this vector index
+  - eg 80 means that about 8/10 times, this will give the same resultset as if a exact query were used
+- The distance function (eg COSINE) is defined
+  - The vector embedding model defines the distance function used to train the neural network
+  - Use the same vector distance function in the vector index to get the best results
+- The vector index can be created in parallel
+  - Given sufficient available CPU cores, increasing the PARALLEL clause will tend to decrease the vector index creation time
