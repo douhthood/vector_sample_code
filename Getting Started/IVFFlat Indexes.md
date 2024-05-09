@@ -76,3 +76,4 @@ Comments on creating IVFFlat vector indexes:
   - Use the **same** vector distance function in the vector index to get the best results
 - The vector index can be created in parallel
   - Given sufficient available CPU cores, increasing the PARALLEL clause will tend to decrease the vector index creation time
+  - Given that creating vector indexes can take a long time, it is well worth determining the optimial level of parallelism
