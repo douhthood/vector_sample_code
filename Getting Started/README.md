@@ -20,7 +20,8 @@ Get the nearest neighbors by L2 distance
 ```SQL
 SELECT *
 FROM items
-ORDER BY embedding <-> '[3,1,2]';
+ORDER BY embedding <-> '[3,1,2]'
+FETCH FIRST 3 ROWS ONLY;
 ```
 
     
