@@ -28,7 +28,7 @@ Monitoring
 Scaling
 Languages
 
-##Reference
+## Reference
 ### Vector Type
 ### Vector Functions
 ### 
