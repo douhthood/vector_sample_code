@@ -81,12 +81,12 @@ Comments on creating HNSW vector indexes:
 - The VECTOR keyword is used to create vector indexes
   - Vector indexes are fundamentally different from existing indexes 
 - The organization is INMEMORY NEIGHBOR GRAPH for HNSW vector indexes
-  - The origanizations clause defines the type of graph  
+  - The origanizations clause defines the type of index  
 - The WITH TARGET ACCURACY clause is used
   - This clauses defines the default accuracy for this vector index
   - eg 90 means that about 9/10 times, this will give the same resultset as if a exact query were used
-- The distance function (COSINE) is defined
+- The distance function (eg COSINE) is defined
   - The vector embedding model defines the distance function used to train the neural network
   - Use the **same** vector distance function in the vector index to get the best results
-- The vector index is created in parallel
+- The vector index can be created in parallel
   - Given sufficient available CPU cores, increasing the PARALLEL clause will tend to decrease the vector index creation time
