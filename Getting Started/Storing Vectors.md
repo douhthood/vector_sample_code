@@ -59,3 +59,10 @@ UPDATE tab2
   SET V = '[1.1, 2, 3.1415]'
 WHERE ID < 3;
 ```
+
+Delete some vectors in tab2
+
+```SQL
+DELETE FROM tab2 
+WHERE ID > 2;
+```
