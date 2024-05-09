@@ -6,7 +6,7 @@ While exact semantics give perfect recall, they can be too slow when there are m
 All vector databases uses some form of Approximate Nearest Neighbor (ANN) algorithm for vector indexes.
 ANN algoirthms are an accuracy vs performance tradeoff.  This means that you give up some accuracy for increased speed.
 
-Oracle AI Vector Search makes it simple to define the accuracy vs performance tradeoff via the WITH TARGET ACCURACY clause in the vector index and/or the vector distance SQL query.
+Oracle AI Vector Search makes it simple to define the accuracy vs performance tradeoff via the [WITH TARGET ACCURACY](With%20Target%20Accuracy.md) clause in the vector index and/or the vector distance SQL query.
 
 Oracle AI Vector Search support two types of vector indexes:
 - [HNSW](HNSW%20Indexes.md)
