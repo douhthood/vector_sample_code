@@ -51,3 +51,11 @@ ON (tab1.id = t2.id)
 WHEN MATCHED THEN UPDATE SET tab1.embedding = t2.v
 WHEN NOT MATCHED THEN INSERT VALUES (t2.id, t2.v);
 ```
+
+Update some vectors in tab2
+
+```SQL
+UPDATE tab2 
+  SET V = '1.1, 2, 3.1415'
+WHERE ID < 3;
+```
