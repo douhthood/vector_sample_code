@@ -1,6 +1,7 @@
 ## Storing Vectors
 
-Create a new table with a vector column 
+Create a new table with a vector column
+
 ```SQL
 CREATE TABLE tab1 (
   id NUMBER,
