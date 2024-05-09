@@ -18,7 +18,7 @@ CREATE TABLE vectors (
   v6  VECTOR(*, float32),
   v7  VECTOR(*, float64),
   v8  VECTOR(*, INT8),
-  v9 VECTOR(384, *),
+  v9  VECTOR(384, *),
   v10 VECTOR(768, *),
   v11 VECTOR(1024, *),
   v12 VECTOR(2048, *),
