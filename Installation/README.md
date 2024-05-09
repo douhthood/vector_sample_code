@@ -56,8 +56,8 @@ As a Linux user who has the sudo privilege, configure the instance:
 A side effect of installing the Oracle database was creating an oracle user on Linux.
 Change to the oracle user.
 
-`sudo su
-su – oracle`
+`sudo su`
+`su – oracle`
 
 Set the environment for the oracle user.
 export ORACLE_SID=FREE
