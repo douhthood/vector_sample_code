@@ -1,7 +1,7 @@
 # vector_sample_code
 Sample code for Oracle AI Vector Search.
 
-See the [Getting Started](Overview%20of%20AI%20Vector%20Search/README.md) to get more details on Oracle AI Vector Search.
+See the [getting started](Overview%20of%20AI%20Vector%20Search/README.md) to get more details on Oracle AI Vector Search.
 
 See [how to install AI Vector Search](Installation/Oracle%20Database%2023ai%20Free) via [Oracle Database 23ai Free](https://www.oracle.com/database/free/get-started/).
 
