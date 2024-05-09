@@ -1,6 +1,6 @@
 # Vector Type
 
-There are multiple ways to define a vector type in a table:
+There are multiple ways to define a [vector type](https://docs.oracle.com/en/database/oracle/oracle-database/23/vecse/create-tables-using-vector-data-type.html) in a table:
 
 ```SQL
 CREATE TABLE vectors (
@@ -21,7 +21,4 @@ CREATE TABLE vectors (
   v14 VECTOR(*, *)
 );
 ```
-
-Comments on the vector type:
-- When the vector is used without any parameters, then any number of dimensions or number format can be used
-- 
+ 
