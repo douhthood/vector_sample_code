@@ -1,11 +1,6 @@
 # Vector Type
 
 There are multiple ways to define a vector type in a table:
-- VECTOR = 
-- VECTOR(3, float32)
-- VECTOR(*, float32)
-- VECTOR(3, *)
-- VECTOR(*, *)
 
 ```SQL
 CREATE TABLE vectors (
@@ -26,3 +21,7 @@ CREATE TABLE vectors (
   v14 VECTOR(*, *)
 );
 ```
+
+Comments on the vector type:
+- When the vector is used without any parameters, then any number of dimensions or number format can be used
+- 
