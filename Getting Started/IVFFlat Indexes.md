@@ -2,7 +2,7 @@
 
 Oracle AI Vector Search supports IVFFlat vector indexes to enable huge vector indexes.  Unlike HNSW vector indexes which are limited in size by available RAM, IVFFlat vector indexes are limited in size by the available disk space.
 
-Oracle AI Vector Search calls IVFFlat vector indexes **Neighbor Partition** indexes.
+Oracle AI Vector Search calls **IVFFlat** vector indexes **Neighbor Partition** indexes.
 The Neighbor Partition Index is a table-based index whose partitions represent the clusters of vectors which are like each other.  
 
 <img src="images/IVFFlat.png" width="512" alt="IVFFlat"/>
