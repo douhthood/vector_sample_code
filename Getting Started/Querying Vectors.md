@@ -5,7 +5,8 @@ Create a table with some vectors
 ```SQL
 CREATE TABLE flex3 (
   id NUMBER,
-  embedding VECTOR);
+  embedding VECTOR
+);
 ```
   
 Insert some vectors
