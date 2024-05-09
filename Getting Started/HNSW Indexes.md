@@ -6,6 +6,8 @@ HNSW vector indexes are faster than IVFFlat vector indexes, but they have two do
 - The entire HNSW vector index must fit with RAM
 - They tend take longer to create than IVFFlat indexes
 
+You must allocate sufficent memory for the VECTOR_MEMORY_SIZE parameter to be able to use the HNSW vector indexes.
+
 ## Some examples of creating HNSW vector indexes
 
 ```SQL
