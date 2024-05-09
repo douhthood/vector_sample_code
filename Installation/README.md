@@ -90,12 +90,19 @@ Connect to the Container Database as /, allocate memory to vector pool and bounc
 
 `create pfile from spfile;`  
 `ALTER SYSTEM SET vector_memory_size = 500M SCOPE=SPFILE;`   
-`shutdown`
-`startup`
-`shutdown`
-`show parameter vector_memory_size;`
-`alter pluggable database all open;`
-`exit;`
+`shutdown`  
+`startup`  
+`shutdown`  
+`show parameter vector_memory_size;`  
+`alter pluggable database all open;`  
+`exit;`  
+
+### Why you need to size VECTOR_MEMORY_SIZE correctly
+Both the HNSW and IVFFlat use memory from the vector pool.
+HNSW vector indexes must fit entirely within the memory allocated by VECTOR_MEMORY_SIZE.
+You must allocate some memory for VECTOR_MEMORY_SIZE to be able to use HNSW vector indexes.
+IVFFlat indexes use memory from by VECTOR_MEMORY_SIZE for metadata.
+
 
 ## Configure Oracle Net
 Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for example:
