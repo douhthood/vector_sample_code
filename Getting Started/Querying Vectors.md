@@ -45,5 +45,11 @@ FROM flex3
 WHERE embedding <-> '[3,1,2]' < 5;
 ```
 
+```SQL
+SELECT * 
+FROM flex3
+WHERE VECTOR_DISTANCE(embedding, VECTOR('[3,1,2]'), EUCLIDEAN) < 5;
+```
+
 
 See [Vector Distance Functions](Vector%20Distance%20Functions.md) for more options.
