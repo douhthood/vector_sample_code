@@ -27,4 +27,4 @@ ORDER BY vector_distance(embedding, vector('[3,1,2]'), EUCLIDEAN)
 FETCH FIRST 3 ROWS ONLY;
 ```
 
-See [Vector Distance Functions]() for more options.
+See [Vector Distance Functions](Vector%20Distance%20Functions.md) for more options.
