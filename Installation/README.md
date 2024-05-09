@@ -13,8 +13,6 @@ Oracle Database 23ai includes support for Oracle AI Vector Search. These instruc
 ## Prerequisites
 - You can use either **Oracle Linux 8.8+** or **Oracle Linux 9.1+**.
   - Red Hat Linux, AlmaLinux, Rocky Linux 8.8+ or 9.1+ will also work
-  - AlmaLinux 8.8+ or 9.1+ will also work
-  - Rocky Linux 8.8+ or 9.1+ will also work
   - Oracle Linux 7.x, SuSE Linux and Debian/Ubuntu **will not work** due to RPM dependencies
 - Your Linux VM should have 4+ GB of RAM.
 - You will need 20+ GB of disk space
@@ -93,12 +91,12 @@ Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for 
 
 `freepdb1 =`  
 `  (DESCRIPTION =`  
-  `  (ADDRESS = (PROTOCOL = TCP)(HOST = Your_23ai_hostname_or_IP_Address)(PORT = 1521))`  
-  `  (CONNECT_DATA =`  
-    `    (SERVER = DEDICATED)`  
-    `    (SERVICE_NAME = freepdb1)`  
-   `  )`  
-  `)`
+`  (ADDRESS = (PROTOCOL = TCP)(HOST = Your_23ai_hostname_or_IP_Address)(PORT = 1521))`  
+`  (CONNECT_DATA =`  
+`    (SERVER = DEDICATED)`  
+`    (SERVICE_NAME = freepdb1)`  
+`  )`  
+`)`
 
 
 ## Connect with SqlPlus
