@@ -85,6 +85,8 @@ Create a PDB service (freepdb1) in tnsnames.ora using your favorite editor, for 
 
 `vi $ORACLE_HOME/network/admin/tnsnames.ora`   
 
+
+
 ## Connect with SqlPlus
 You should now be able to connect to your 23ai database service via either:
 
