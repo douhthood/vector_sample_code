@@ -2,10 +2,9 @@
 
 [Hierarchial Navigable Small World](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/create-vector-index.html#GUID-B396C369-54BB-4098-A0DD-7C54B3A0D66F) (HNSW) are fast, memory based, proximity graph, vector indexes.
 
+The HNSW vector indexes in **Oracle AI Vector Search** are called **InMemory Neighbor Graph** Indexes and are memory-based indexes where vectors are placed in a multi-layer graph.   In each higher level of the graph there is a decaying fraction of vectors. At each layer the search finds the nearest neighbors of the search vector starting from a certain entry point and terminates with the nearest neighbors in the lowest level of the graph.
+
 <img src="images/HNSW.png" width="512" alt="HNSW"/>
-
-The HNSW vector indexes in Oracle AI Vector Search are called **InMemory Neighbor Graph Indexes** and are memory-based indexes where vectors are placed in a multi-layer graph.   In each higher level of the graph there is a decaying fraction of vectors. At each layer the search finds the nearest neighbors of the search vector starting from a certain entry point and terminates with the nearest neighbors in the lowest level of the graph.
-
 
 HNSW vector indexes are faster than IVFFlat vector indexes, but they have two downsides:
 - The entire HNSW vector index must fit with RAM
