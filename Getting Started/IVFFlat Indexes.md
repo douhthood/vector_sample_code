@@ -11,4 +11,15 @@ With this type of index, entries in the index are divided into partitions which 
 
 As IVFFlat indexes use the Oracle Database buffer cache, there may be physical IOs during IVFFlat vector searches.  These physical (and logical) IOs tend to be slower than the using the in-memory HNSW vector indexes.
 
+## Some examples of creating IVFFlat vector indexes
+
+```SQL
+CREATE VECTOR INDEX flex3_embedding_ivfflat ON flex3 (embedding)
+ORGANIZATION NEIGHBOR PARTITONS 
+WITH TARGET ACCURACY 90
+DISTANCE COSINE
+PARALLEL 4;
+DROP INDEX flex3_embedding_hnsw;
+```
+
 Your IVFFlat vector indexes will benefit by storing metadata in the vector pool.  Size the VECTOR_MEMORY_SIZE parameter to be able to use both HNSW and IVFFlat vector indexes.
