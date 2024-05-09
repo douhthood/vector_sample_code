@@ -5,7 +5,7 @@ Oracle AI Vector Search supports IVFFlat vector indexes to enable huge vector in
 Oracle AI Vector Search calls **IVFFlat** vector indexes **Neighbor Partition** indexes.
 The Neighbor Partition Index is a table-based index whose partitions represent the clusters of vectors which are like each other.  
 
-<img src="images/IVFFlat.png" width="512" alt="IVFFlat"/>
+<img src="images/IVFFlat.png" width="768" alt="IVFFlat"/>
 
 With this type of index, entries in the index are divided into partitions which correspond to centroids (or average) vectors which are representative of the data.  Searches of the index are performed by first determining the nearest centroids to a search vector and then by searching the partitions which correspond to each centroid.
 
