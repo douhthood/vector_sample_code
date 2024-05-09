@@ -5,7 +5,7 @@ All Oracle Database 23ai databases can use AI Vector Search.
 
 Create a table with a vector with 3 dimensions  
 ```SQL
-CREATE TABLE items (id NUBER PRIMARY KEY, embedding vector(3,*));
+CREATE TABLE items (id NUMBER PRIMARY KEY, embedding VECTOR(3,*));
 ```
 
     
