@@ -2,5 +2,9 @@
 
 Get the nearest neighbors to a vector
 
+```SQL
+SELECT *
+FROM flex1
+ORDER BY vector_distance(embedding, VECTOR('[3,1,2]'), EUCLIDEAN)
+;
 ```
-SELECT * FROM items ORDER BY embedding <-> '[3,1,2]' LIMIT 5;
