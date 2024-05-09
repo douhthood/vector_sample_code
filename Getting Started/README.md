@@ -1,7 +1,7 @@
 # Getting Started with Oracle AI Vector Search
 
 ## Contents
-- Getting Started
+- [Getting Started](Getting%20Started.md)
 - Storing
 - Querying 
 - Indexing 
