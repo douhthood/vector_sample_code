@@ -18,15 +18,6 @@ INSERT INTO flex1 VALUES ('[1,2,3]'),
                          ('[9,7,8]');
 ```
 
-Get the nearest neighbors by L2 distance
-
-```SQL
-SELECT *
-FROM flex1
-ORDER BY embedding <-> '[3,1,2]'
-FETCH FIRST 3 ROWS ONLY;
-```
-
 Get the nearest neighbors by Euclidean distance (L2 = Euclidean)
 
 ```SQL
@@ -72,3 +63,11 @@ ORDER BY vector_distance(embedding, vector('[3,1,2]'), HAMMING)
 FETCH FIRST 3 ROWS ONLY;
 ```
 
+Get the nearest neighbors by L2 distance
+
+```SQL
+SELECT *
+FROM flex1
+ORDER BY embedding <-> '[3,1,2]'
+FETCH FIRST 3 ROWS ONLY;
+```
