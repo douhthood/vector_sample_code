@@ -57,16 +57,14 @@ A side effect of installing the Oracle database was creating an oracle user on L
 Change to the oracle user.
 
 `sudo su`
-
 `su – oracle`
 
 Set the environment for the oracle user.
 
 `export ORACLE_SID=FREE`
-
 `export ORAENV_ASK=NO`
-
 `. /opt/oracle/product/23ai/dbhomeFree/bin/oraenv` 
+
 
 
 ## Create DB user
