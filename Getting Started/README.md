@@ -20,9 +20,18 @@ Get the nearest neighbors by L2 distance
 ```SQL
 SELECT *
 FROM items
-ORDER BY embedding <-> '[3,1,2]' FETCH FIRST 3 ROWS ONLY;
+ORDER BY embedding <-> '[3,1,2]'
+FETCH FIRST 3 ROWS ONLY;
 ```
 
+Get the nearest neighbors by Euclidean distance (L2 = Euclidean)
+
+```SQL
+SELECT *
+FROM items
+ORDER BY vector_distance(embedding, vector('[3,1,2]'), EUCLIDEAN)
+FETCH FIRST 3 ROWS ONLY;
+```
     
 
 ## Storing
