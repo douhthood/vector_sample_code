@@ -2,4 +2,9 @@
 
 Sample code:
 - [Readme](../python-oracledb/README.md)
+- [Create the schema](../python-oracledb/create_schema.py)
+- []()
+- []()
+- []()
+- []()
 - 
