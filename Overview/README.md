@@ -2,7 +2,7 @@
 
 AI Vector Search enables you to search structured and unstructured data based on its semantics or meaning, in addition to its values. Native vector capabilities can help large language models (LLMs) deliver more-accurate and contextually relevant results with retrieval-augmented generation (RAG).
 
-<img src="../images/database23ai_vector_search.png" width="384" alt="Languages"/>
+<img src="../Getting%20Started/images/database23ai_vector_search.png" width="384" alt="Oracle Database 23ai and AI Vector Search"/>
 
 
 ### The simplicity of a single database
