@@ -58,4 +58,4 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 
 
 **JDBC** sample code:
-- [Vectorize data](jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-onnx) and [similarity search](jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-onnx)
+- [Vectorize data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-onnx/README.md) and [similarity search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-onnx/README.md)
