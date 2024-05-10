@@ -13,3 +13,24 @@ Use your favorite development tools, AI frameworks, and languages to build AI ap
 
 ### AI built for enterprise
 Build mission-critical AI apps with ease. Leverage industrial-strength capabilities to achieve scalability, performance, high availability, and security.
+
+## Similarity Search
+Similarity search is focused on finding related data based on its semantic meaning. Unstructured data is difficult to search directly, so similarity search goes beyond simple keyword searches by considering the underlying text, image, audio, or video data instead of only searching the labels manually applied to it.
+
+The need to identify a match for similar data across large data sets applies to many industries. Examples of similarity search include the following:
+- Semantic search of document
+- Semantic search of images
+- Recommendation systems
+- Pattern recognition
+- Anomaly and fraud detection
+
+## Retrieval Augmented Generation
+RAG uses the results of similarity search to improve the accuracy and contextual relevance of large language model responses to questions about business data. RAG helps identify contextually relevant private data that the LLM may not have been trained on and then uses it to augment user prompts so LLMs can respond with greater accuracy.
+
+The desire to get higher quality answers from LLMs is universal, spanning many industries. Some examples of using RAG for improved accuracy include the following:
+- Chatbots for internal and external users
+- Document searches and summaries
+- Language to code synthesis
+- Answers to questions that require specialized, domain-specific knowledge
+
+RAG helps organizations provide customized answers to business questions without the high cost of retraining or fine-tuning the LLMs.
