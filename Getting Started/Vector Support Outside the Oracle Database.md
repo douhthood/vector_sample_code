@@ -6,7 +6,7 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 
 <img src="images/OpenAI_Cohere.png" width="384" alt="OpenAI and Cohere"/>
 
-## Sample Code using OpenAI and Cohere
+## Sample code using OpenAI and Cohere
 
 Python sample code using OpenAI:
 - Vectorize Data and Similarity Search
