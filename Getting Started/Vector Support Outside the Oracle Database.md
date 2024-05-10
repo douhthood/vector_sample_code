@@ -42,4 +42,10 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 
 <img src="images/HF_ONNX.png" width="384" alt="Hugging Face and ONNX Runtime"/>
 
+<br>
+
+## Sample code using Hugging Face Sentence Transformers
+
+**Python** sample code:
+[Vectorize data](../python-oracledb/vectorize_table_SentenceTransformers.py) and [similarity search]()
  
