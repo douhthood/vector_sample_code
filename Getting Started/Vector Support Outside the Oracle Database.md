@@ -6,6 +6,13 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 
 <img src="images/OpenAI_Cohere.png" width="384" alt="OpenAI and Cohere"/>
 
+## Sample Code using OpenAI and Cohere
+
+Python sample code using OpenAI:
+- Vectorize Data and Similarity Search
+
 You can also use open source embedding models from Hugging Face and the ONNX Runtime.  The open source embeding models tend to be function calls to local libraries.
 
 <img src="images/HF_ONNX.png" width="384" alt="Hugging Face and ONNX Runtime"/>
+
+ 
