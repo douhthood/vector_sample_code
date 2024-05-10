@@ -5,12 +5,11 @@
 - [Storing Vectors](Storing%20Vectors.md)
 - [Querying Vectors](Querying%20Vectors.md) 
 - [Indexing Vectors](Vector%20Indexes.md) 
-- Filtering Vectors
-- Vector
-- Performance Optimization
-- Languages
+- Attribute Filtering
+- Creating Augmented ONNX files
 - [Vector Type](Vector%20Type.md)
 - Vector Functions
+- Languages
 - Trouble Shooting
 
 
