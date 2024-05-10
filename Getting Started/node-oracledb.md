@@ -1,3 +1,3 @@
-# Node.js support for Oracle AI Vector Search via node-oracledb
+# Node.js support via the node-oracledb SQL driver
 
 Stuff
