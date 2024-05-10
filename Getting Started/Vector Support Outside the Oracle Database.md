@@ -9,7 +9,7 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 ## Sample code using OpenAI and Cohere
 
 Python sample code using OpenAI:
-- Vectorize Data and Similarity Search
+- [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/vectorize_table_openai.py)
 
 You can also use open source embedding models from Hugging Face and the ONNX Runtime.  The open source embeding models tend to be function calls to local libraries.
 
