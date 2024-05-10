@@ -34,7 +34,7 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 - [Vectorize Data](../odp.net/Cohere_VectorizeTable.cs) and [Similarity Search](../odp.net/Cohere_SimilaritySearch.cs)
 
 **JDBC** sample code:
-- [Vectorize Data](../dbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere/src/main/java/oracle/jdbc/vector/examples/cohere/CohereSimilaritySearch.java)
+- [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere/src/main/java/oracle/jdbc/vector/examples/cohere/CohereSimilaritySearch.java)
 
 
 <br>
