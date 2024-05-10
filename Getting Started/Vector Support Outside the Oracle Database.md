@@ -20,6 +20,7 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 **JDBC** sample code using **OpenAI**:
 - [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java)
 
+<br>
 ## Sample code using Cohere
 **Python** sample code using **OpenAI**:
 - [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
