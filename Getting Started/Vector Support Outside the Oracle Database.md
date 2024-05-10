@@ -47,5 +47,5 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 ## Sample code using Hugging Face Sentence Transformers
 
 **Python** sample code:
-[Vectorize data](../python-oracledb/vectorize_table_SentenceTransformers.py) and [similarity search]()
+- [Vectorize data](../python-oracledb/vectorize_table_SentenceTransformers.py) and [similarity search]()
  
