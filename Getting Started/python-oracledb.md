@@ -3,7 +3,7 @@
 Vectors can be created via the public REST endpoints for the **OpenAI.com** and **Cohere.com** companies.
 Vectors can also be created via function calls to Sentence Transformer **local libraries** from **Hugging Face**.
 
-Vectors can be bound and defined via the latest versions of [python-oracledb](https://python-oracledb.readthedocs.io/en/latest/user_guide/installation.html#installation-requirements) from PyPI.
+Vectors can be bound and defined for SQL statements via the latest versions of [python-oracledb](https://python-oracledb.readthedocs.io/en/latest/user_guide/installation.html#installation-requirements) from PyPI.
 
 Sample code:
 - [Readme](../python-oracledb/README.md)
