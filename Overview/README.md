@@ -2,6 +2,9 @@
 
 AI Vector Search enables you to search structured and unstructured data based on its semantics or meaning, in addition to its values. Native vector capabilities can help large language models (LLMs) deliver more-accurate and contextually relevant results with retrieval-augmented generation (RAG).
 
+<img src="images/database23ai_vector_search.png" width="384" alt="Languages"/>
+
+
 ### The simplicity of a single database
 Easily combine similarity search with relational, text, JSON, spatial, and graph data types to enhance your apps—all in a single database.
 
