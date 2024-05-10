@@ -12,7 +12,7 @@ Python sample code using OpenAI:
 - [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
 
 Node.js sample code using OpenAI:
-- [Vectorize Data]() and [Similarity Search]()
+- [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search]()
 
 
 
