@@ -101,6 +101,7 @@ Connect to the Container Database as /, allocate memory to vector pool and bounc
 - HNSW vector indexes must fit entirely within the memory allocated by VECTOR_MEMORY_SIZE.
 - You must allocate some memory for VECTOR_MEMORY_SIZE to be able to use HNSW vector indexes.
 - IVFFlat indexes use memory from by VECTOR_MEMORY_SIZE for metadata.
+- Sizing the VECTOR_MEMORY_SIZE parameter is covered here
 
 
 ## Configure Oracle Net
