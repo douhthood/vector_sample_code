@@ -92,7 +92,6 @@ Connect to the Container Database as /, allocate memory to vector pool and bounc
 `ALTER SYSTEM SET vector_memory_size = 500M SCOPE=SPFILE;`   
 `shutdown`  
 `startup`  
-`shutdown`  
 `show parameter vector_memory_size;`  
 `alter pluggable database all open;`  
 `exit;`  
