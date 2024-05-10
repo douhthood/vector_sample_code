@@ -15,7 +15,7 @@ Node.js sample code using OpenAI:
 - [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
 
 ODP.NET sample code using OpenAI:
-- [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs)
+- [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs) and [Similarity Search](../odp.net/OpenAI_SimilaritySearch.cs)
 
 JDBC sample code using OpenAI:
 - []()
