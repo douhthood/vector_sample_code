@@ -14,7 +14,11 @@ Python sample code using OpenAI:
 Node.js sample code using OpenAI:
 - [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
 
+ODP.NET sample code using OpenAI:
+- [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs)
 
+JDBC sample code using OpenAI:
+- []()
 
 You can also use open source embedding models from Hugging Face and the ONNX Runtime.  The open source embeding models tend to be function calls to local libraries.
 
