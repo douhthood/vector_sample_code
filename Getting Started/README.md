@@ -6,7 +6,6 @@
 - [Querying Vectors](Querying%20Vectors.md) 
 - [Indexing Vectors](Vector%20Indexes.md) 
 - Attribute Filtering
-- Creating Augmented ONNX files
 - Vector Functions
 - Languages
 - Trouble Shooting
