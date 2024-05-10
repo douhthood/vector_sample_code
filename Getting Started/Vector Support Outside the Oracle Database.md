@@ -20,6 +20,7 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 **JDBC** sample code using **OpenAI**:
 - [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java)
 
+<br>
 You can also use open source embedding models from Hugging Face and the ONNX Runtime.  The open source embeding models tend to be function calls to local libraries.
 
 <img src="images/HF_ONNX.png" width="384" alt="Hugging Face and ONNX Runtime"/>
