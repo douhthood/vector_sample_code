@@ -25,16 +25,16 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 
 ## Sample code using Cohere
 **Python** sample code:
-- [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
+- [Vectorize Data](../python-oracledb/vectorize_table_Cohere.py) and [Similarity Search](../python-oracledb/similarity_search_Cohere.py)
 
 **Node.js** sample code:
-- [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
+- [Vectorize Data](../node-oracledb/vectorizeTableCohere.js) and [Similarity Search](../node-oracledb/similaritySearchCohere.js)
 
 **ODP.NET** sample code:
-- [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs) and [Similarity Search](../odp.net/OpenAI_SimilaritySearch.cs)
+- [Vectorize Data](../odp.net/Cohere_VectorizeTable.cs) and [Similarity Search](../odp.net/Cohere_SimilaritySearch.cs)
 
 **JDBC** sample code:
-- [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java)
+- [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere/src/main/java/oracle/jdbc/vector/examples/openai/CohereSimilaritySearch.java)
 
 
 <br>
