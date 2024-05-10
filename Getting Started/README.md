@@ -7,6 +7,7 @@
 - [Indexing Vectors](Vector%20Indexes.md) 
 - Attribute Filtering
 - Multi-vector
+- [LangChain]()
 - [Language Support](Language%20Support.md)
 - Trouble Shooting
 
