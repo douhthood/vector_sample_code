@@ -3,7 +3,7 @@
 Oracle clients include:
 - [SQL]()
 - [PLSQL]()
-- [python-oracledb](../python-oracledb/README.md)
+- [python-oracledb](../python-oracledb.md)
 - [node-oracledb]()
 - [JDBC]()
 - [ODP.NET]()
