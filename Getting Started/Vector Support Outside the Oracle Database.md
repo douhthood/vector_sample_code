@@ -8,13 +8,13 @@ You can use commercial vendors such as OpenAI or Cohere which use public REST AP
 
 ## Sample code using OpenAI and Cohere
 
-Python sample code using OpenAI:
+**Python** sample code using **OpenAI**:
 - [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
 
-Node.js sample code using OpenAI:
+**Node.js** sample code using **OpenAI**:
 - [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
 
-ODP.NET sample code using OpenAI:
+**ODP.NET** sample code using **OpenAI**:
 - [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs) and [Similarity Search](../odp.net/OpenAI_SimilaritySearch.cs)
 
 JDBC sample code using OpenAI:
