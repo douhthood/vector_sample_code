@@ -54,4 +54,4 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 ## Sample code using Hugging Face Transformers.js
 
 **Node.js** sample code:
-- [Vectorize data](../node-oracledb/vectorizeTableHFTransformers.js) and [similarity search]()
+- [Vectorize data](../node-oracledb/vectorizeTableHFTransformers.js) and [similarity search](../node-oracledb/similaritySearchHFTransformers)
