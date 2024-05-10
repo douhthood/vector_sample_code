@@ -7,7 +7,7 @@
 - [Indexing Vectors](Vector%20Indexes.md) 
 - Attribute Filtering
 - [Vector Functions](Vector%20Functions.md)
-- Languages
+- [Languages](Language%20Support.md)
 - Trouble Shooting
 
 
