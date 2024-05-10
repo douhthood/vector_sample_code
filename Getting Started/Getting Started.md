@@ -33,4 +33,4 @@ See [Equivalent Distance Functions](Equivalent%20Distance%20Functions.md) for mo
 
 See [Defining vectors in tables](Vector%20Type.md) for more options.
 
-See [Vector functions]() for more options.
+See [Vector functions](Vector%20Functions.md) for more options.
