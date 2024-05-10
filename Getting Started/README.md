@@ -6,6 +6,7 @@
 - [Querying Vectors](Querying%20Vectors.md) 
 - [Indexing Vectors](Vector%20Indexes.md) 
 - Attribute Filtering
+- Multi-vector
 - [Language Support](Language%20Support.md)
 - Trouble Shooting
 
