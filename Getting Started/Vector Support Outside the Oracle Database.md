@@ -9,31 +9,31 @@ You can also use open source embedding models from Hugging Face and the ONNX Run
 
 ## Sample code using OpenAI
 
-**Python** sample code using **OpenAI**:
+**Python** sample code:
 - [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
 
-**Node.js** sample code using **OpenAI**:
+**Node.js** sample code:
 - [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
 
-**ODP.NET** sample code using **OpenAI**:
+**ODP.NET** sample code:
 - [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs) and [Similarity Search](../odp.net/OpenAI_SimilaritySearch.cs)
 
-**JDBC** sample code using **OpenAI**:
+**JDBC** sample code:
 - [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java)
 
 <br>
 
 ## Sample code using Cohere
-**Python** sample code using **OpenAI**:
+**Python** sample code:
 - [Vectorize Data](../python-oracledb/vectorize_table_openai.py) and [Similarity Search](../python-oracledb/similarity_search_OpenAI.py)
 
-**Node.js** sample code using **OpenAI**:
+**Node.js** sample code:
 - [Vectorize Data](../node-oracledb/vectorizeTableOpenAI.js) and [Similarity Search](../node-oracledb/similaritySearchOpenAI.js)
 
-**ODP.NET** sample code using **OpenAI**:
+**ODP.NET** sample code:
 - [Vectorize Data](../odp.net/OpenAI_VectorizeTable.cs) and [Similarity Search](../odp.net/OpenAI_SimilaritySearch.cs)
 
-**JDBC** sample code using **OpenAI**:
+**JDBC** sample code:
 - [Vectorize Data](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/README.md) and [Similarity Search](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java)
 
 
