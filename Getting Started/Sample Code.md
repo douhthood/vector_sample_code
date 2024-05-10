@@ -1,3 +1,8 @@
 # Oracle AI Vector Search Sample Code
 
-Stuff
+Oracle clients include:
+- [python-oracledb]()
+- [node-oracledb]()
+- [JDBC]()
+- [ODP.NET]()
+
