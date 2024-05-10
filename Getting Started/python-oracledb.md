@@ -1,7 +1,7 @@
 # Python support via the python-oracledb driver
 
-Vectors can be created via the public REST endpoints for OpenAI.com and Cohere.com companies.
-Vectors can also be created via function calls to Sentence Transformer local libraries from Hugging Face.
+Vectors can be created via the public REST endpoints for the **OpenAI.com** and **Cohere.com** companies.
+Vectors can also be created via function calls to Sentence Transformer **local libraries** from **Hugging Face**.
 
 Sample code:
 - [Readme](../python-oracledb/README.md)
