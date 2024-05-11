@@ -72,3 +72,9 @@ Commit the changes
 ```SQL
 COMMIT;
 ```
+
+Create a table with vectors from an existing table
+
+```SQL
+Create table tab2 as select * From tab2;
+```
