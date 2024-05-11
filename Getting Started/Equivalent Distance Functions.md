@@ -25,7 +25,7 @@ INSERT INTO flex4 VALUES (4, '[7.1,5,6.3]');
 INSERT INTO flex4 VALUES (5, '[9,7,8]');
 ```
 
-Get the nearest neighbors to a vector
+Get the three nearest neighbors to a vector using Euclidean
 
 ```SQL
 SELECT *
@@ -34,21 +34,23 @@ ORDER BY embedding <-> VECTOR('[3,1,2]')
 FETCH FIRST 3 ROWS ONLY;
 ```
 
-Get the nearest neighbors to a row
+Get the three nearest neighbors to a vector using Euclidean
 
 ```SQL
 SELECT *
 FROM flex4
-WHERE id != 1 ORDER BY embedding <-> (SELECT embedding FROM flex3 WHERE id = 1)
+ORDER BY L2_distance(embedding, VECTOR('[3,1,2]'))
 FETCH FIRST 3 ROWS ONLY;
 ```
 
-Get rows within a certain distance
+Get the three nearest neighbors to a vector using Euclidean
 
 ```SQL
-SELECT * 
+SELECT *
 FROM flex4
-WHERE embedding <-> '[3,1,2]' < 5;
+ORDER BY vector_distance(embedding, VECTOR('[3,1,2]'), EUCLIDEAN)
+FETCH FIRST 3 ROWS ONLY;
+```
 ```
 
 Use the equivalent syntax to get rows within a certain distance
