@@ -38,4 +38,4 @@ The desire to get higher quality answers from LLMs is universal, spanning many i
 
 RAG helps organizations provide customized answers to business questions without the high cost of retraining or fine-tuning the LLMs.
 
-See [Getting started](Getting%20Started/README.md)
+See [Getting started](../Getting%20Started/README.md)
