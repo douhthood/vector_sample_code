@@ -108,3 +108,30 @@ INSERT INTO t3 VALUES
 
 SELECT * FROM t3;
 ```
+
+Creating tables with different vector formats
+
+```SQL
+CREATE TABLE IF NOT EXISTS t5
+         ( v1        VECTOR(3, float32),
+           v2        VECTOR(2, float64),
+           v3        VECTOR(1, int8),
+           v4        VECTOR(1, *),
+           v5        VECTOR(*, float32),
+           v6        VECTOR(*, *),
+           v7        VECTOR
+         );
+
+DESC t5;
+
+INSERT INTO t5 VALUES ('[1.1, 2.2, 3.3]',
+                       '[1.1, 2.2]',
+                       '[7]',
+                       '[9]',
+                       '[1.1, 2.2, 3.3, 4.4, 5.5]',
+                       '[1.1, 2.2]',
+                       '[1.1, 2.2, 3.3, 4.4, 5.5, 6.6]'
+                      );
+
+SELECT * FROM t5;
+```
