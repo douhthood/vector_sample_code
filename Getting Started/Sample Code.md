@@ -5,6 +5,6 @@ Oracle clients include:
 - [PLSQL]()
 - [python-oracledb](python-oracledb.md)
 - [node-oracledb](node-oracledb.md)
-- [JDBC]()
+- [JDBC](jdbc.md)
 - [ODP.NET]()
 
