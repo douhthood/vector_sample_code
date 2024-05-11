@@ -8,6 +8,8 @@ The vector_embedding SQL function has two input parameters:
 
 The **output** of the vector_embedding SQL function is the **vector**.
 
+<br>
+
 Setup for using the vector_embedding SQL function
 - Choose the Sentence Transformer vector embedding model from Hugging Face
 - Create an Augmented ONNX file from the embedding model
