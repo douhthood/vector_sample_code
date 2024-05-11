@@ -4,6 +4,8 @@ Oracle AI Vector Search supports many different vector distance functions.
 
 <img src="images/alt_dist_fn.png" width="640" alt="Alternative Distance Functions"/>
 
+These distance functions are equivalent, the same underlying functions are used so there is no performance differences.  These distance functions are just different syntax, use the syntax that you are most comfortable with.
+
 Here are some examples of using these distance functions.
 
 Create a table with some vectors
