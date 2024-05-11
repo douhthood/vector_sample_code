@@ -1,9 +1,8 @@
 # C# support via the Oracle ODP.NET Managed driver
 
 Vectors can be created via the public REST endpoints for the **OpenAI.com** and **Cohere.com** companies.
-Vectors can also be created via function calls to the ONNX Runtime.
 
-Vectors can be bound and defined for SQL statements via the latest versions of [python-oracledb](https://python-oracledb.readthedocs.io/en/latest/user_guide/installation.html#installation-requirements) from PyPI.
+Vectors can be bound and defined for SQL statements via the latest versions of [ODP.NET]([https://python-oracledb.readthedocs.io/en/latest/user_guide/installation.html#installation-requirements](https://www.nuget.org/packages/Oracle.ManagedDataAccess)) from Nuget.
 
 Sample code:
 - [Readme](../python-oracledb/README.md)
