@@ -66,3 +66,9 @@ Delete some vectors in tab2
 DELETE FROM tab2 
 WHERE ID > 2;
 ```
+
+Commit the changes
+
+```SQL
+COMMIT;
+```
