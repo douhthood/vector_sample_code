@@ -85,7 +85,7 @@ Get the three nearest neighbors to a vector using Dot Product
 ```SQL
 SELECT *
 FROM flex4
-ORDER BY embedding <=> VECTOR('[3,1,2]')
+ORDER BY embedding <#> VECTOR('[3,1,2]')
 FETCH FIRST 3 ROWS ONLY;
 ```
 
