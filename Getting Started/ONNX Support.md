@@ -6,7 +6,7 @@ The vector_embedding SQL function has two inut parameters:
 - The vector embedding model
 - The expression or column name as the data to embed
 
-The output of the vector_embedding SQL function is the vector.
+The **output** of the vector_embedding SQL function is the **vector**.
 
 Setup for using the vector_embedding SQL function
 - Choose the Sentence Transformer vector embedding model from Hugging Face
