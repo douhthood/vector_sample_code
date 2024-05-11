@@ -7,3 +7,8 @@ The vector_embedding SQL function has two inut parameters:
 - The expression or column name as the data to embed
 
 The output of the vector_embedding SQL function is the vector.
+
+Setup for using the vector_embedding SQL function
+- Choose the Sentence Transformer vector embedding model from Hugging Face
+- Create an Augmented ONNX file from the embedding model
+- Load the embedding model into Oracle Database 23ai
