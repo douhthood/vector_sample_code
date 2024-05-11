@@ -6,7 +6,7 @@ Vectors can also be created via function calls to the ONNX Runtime.
 Vectors can be bound and defined for SQL statements via the latest versions of JDBC.
 
 Sample code:
-- [Readme](../node-oracledb/README.md) 
+- [Readme](../jdbc/ai-vector-search-oracle-jdbc-examples-main/README.md) 
 - [Create the schema](../) - create the tables and data needed for Similarity Search
 - [Vectorize data with OpenAI ](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-openai/src/main/java/oracle/jdbc/vector/examples/openai/OpenAiSimilaritySearch.java) - Vectorize table data in one transaction
 - [Vectorize data with Cohere](../jdbc/ai-vector-search-oracle-jdbc-examples-main/ojdbc-vector-examples-cohere/src/main/java/oracle/jdbc/vector/examples/cohere/CohereSimilaritySearch.java)  - Vectorize table data in one transaction
