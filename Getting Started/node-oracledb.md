@@ -6,7 +6,7 @@ Vectors can also be created via function calls to Transformer.js **local librari
 Vectors can be bound and defined for SQL statements via the latest versions of [node-oracledb](https://node-oracledb.readthedocs.io/en/latest/user_guide/installation.html#quickstart) from npm.
 
 Sample code:
-- [Readme](../node-oracledb/README.md)
+- [Readme](../node-oracledb/README.md) - create the tables and data needed for Similarity Search
 - [Create the schema](../node-oracledb/createSchema.js)
 - [Vectorize data with OpenAI ](../node-oracledb/vectorizeTableOpenAI.js)
 - [Vectorize data with Cohere](../node-oracledb/vectorizeTableCohere.js)
