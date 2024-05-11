@@ -14,3 +14,6 @@ Sample code:
 - [Similarity Search with OpenAI](../node-oracledb/similaritySearchOpenAI.js)
 - [Similarity Search with Cohere](../node-oracledb/similaritySearchCohere.js)
 - [Similarity Search with Sentence Transformers](../node-oracledb/similaritySearchHFTransformers.js)
+- [Batch vectorize data with OpenAI ](../node-oracledb/batchVectorizeTableOpenAI.js)
+- [Batch vectorize data with Cohere](../node-oracledb/batchVectorizeTableCohere.js)
+- [Batch vectorize data with Sentence Transformers](../node-oracledb/batchVectorizeHFTransformers.js)
