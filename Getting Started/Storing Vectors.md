@@ -85,3 +85,26 @@ Populate a table from a query
 TRUNCATE TABLE tab3;
 INSERT INTO tab3 SELECT * FROM tab2;
 ```
+
+Store multiple vectors per table
+
+```SQL
+CREATE TABLE IF NOT EXISTS t3
+       ( id           NUMBER NOT NULL,
+         name         VARCHAR2(32),
+         v1           VECTOR,
+         v2           VECTOR,
+         v3           VECTOR,
+                      PRIMARY KEY (id)
+       );  
+
+INSERT INTO t3 VALUES
+       (1,
+        'One',
+        '[2.3, 4.5, 0.1]',
+        '[1.3]',
+        '[4.981, -6.3]'
+       );
+
+SELECT * FROM t3;
+```
