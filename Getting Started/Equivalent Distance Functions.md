@@ -2,7 +2,7 @@
 
 Oracle AI Vector Search supports many different vector distance functions.
 
-<img src="images/alt_dist_fn.png" width="768" alt="Alternative Distance Functions"/>
+<img src="images/alt_dist_fn.png" width="512" alt="Alternative Distance Functions"/>
 
 Here are some examples of using these desitance functions.
 
