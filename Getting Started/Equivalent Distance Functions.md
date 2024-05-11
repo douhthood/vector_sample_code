@@ -4,7 +4,7 @@ Oracle AI Vector Search supports many different vector distance functions.
 
 <img src="images/alt_dist_fn.png" width="640" alt="Alternative Distance Functions"/>
 
-Here are some examples of using these desitance functions.
+Here are some examples of using these distance functions.
 
 Create a table with some vectors
 
@@ -51,12 +51,31 @@ FROM flex4
 ORDER BY vector_distance(embedding, VECTOR('[3,1,2]'), EUCLIDEAN)
 FETCH FIRST 3 ROWS ONLY;
 ```
-```
 
-Use the equivalent syntax to get rows within a certain distance
+
+Get the three nearest neighbors to a vector using Cosine Similarity
 
 ```SQL
-SELECT * 
+SELECT *
 FROM flex4
-WHERE VECTOR_DISTANCE(embedding, VECTOR('[3,1,2]'), EUCLIDEAN) < 5;
+ORDER BY embedding <=> VECTOR('[3,1,2]')
+FETCH FIRST 3 ROWS ONLY;
+```
+
+Get the three nearest neighbors to a vector using Cosine Similarity
+
+```SQL
+SELECT *
+FROM flex4
+ORDER BY cosine_distance(embedding, VECTOR('[3,1,2]'))
+FETCH FIRST 3 ROWS ONLY;
+```
+
+Get the three nearest neighbors to a vector using Euclidean
+
+```SQL
+SELECT *
+FROM flex4
+ORDER BY vector_distance(embedding, VECTOR('[3,1,2]'), COSINE)
+FETCH FIRST 3 ROWS ONLY;
 ```
