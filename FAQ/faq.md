@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+<img src="../Getting%20Started/images/database23ai_vector_search.png
+" width="384" alt=“Multi “Vector/>
+
+
 What is a Vector
 
 How does Oracle Database 23ai support vectors
