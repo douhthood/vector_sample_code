@@ -78,3 +78,10 @@ Create a table with vectors from an existing table
 ```SQL
 CREATE TABLE tab3 AS SELECT * FROM tab2;
 ```
+
+Populate a table from a query
+
+```SQL
+TRUNCATE TABLE tab3;
+INSERT INTO tab3 SELECT * FROM tab2;
+```
