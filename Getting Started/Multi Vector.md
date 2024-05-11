@@ -1,6 +1,6 @@
 # Multi Vector in Oracle AI Vector Search
 
-AI vector search SQL can also be performed with much more complex queries involving joins and groupings. It supports a search pattern known as “multi-vector” where a single entity is associated with multiple vectors. 
+AI vector search SQL can also be performed with much more complex queries involving joins and groupings. It supports a search pattern known as **multi-vector** where a single entity is associated with multiple vectors. 
 
 In the picture below, there are three documents, red, green and blue.  The three closest vectors to the yellow query vector are two red and one green vector.  If you want to get vectors from multiple documents, even if they are not the closest, then you can use the multi-vector syntax.  
 
