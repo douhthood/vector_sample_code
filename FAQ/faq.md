@@ -1,7 +1,6 @@
 # Frequently Asked Questions
 
-<img src="../Getting%20Started/images/database23ai_vector_search.png
-" width="384" alt=“Multi “Vector/>
+<img src="../Getting%20Started/images/database23ai_vector_search.png" width="384" alt="AI Vector Search"/>
 
 
 What is a Vector
