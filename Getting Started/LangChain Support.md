@@ -1,4 +1,4 @@
-# LangChain Support for Oracle AI Vector Search
+# Oracle AI Vector Search support for LangChain
 
 Oracle AI Vector Search supports LangChain.
 
