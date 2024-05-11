@@ -76,5 +76,5 @@ COMMIT;
 Create a table with vectors from an existing table
 
 ```SQL
-Create table tab2 as select * From tab2;
+CREATE TABLE tab3 AS SELECT * FROM tab2;
 ```
