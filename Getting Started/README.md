@@ -10,6 +10,6 @@
 - [Sample Code](Sample%20Code.md)
 - [LangChain Support](LangChain%20Support.md)
 - [Language Support](Language%20Support.md)
-- [Trouble Shooting]()
+- [Trouble Shooting](Trouble%20Shooting.md)
 
 
