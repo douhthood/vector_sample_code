@@ -37,7 +37,8 @@ exit()
 
 This creates an augmented ONNX file called **all-MiniLM-L6-v2.onnx** in the current working directory.
 
-This file is an AUgmented ONNX file as it has additional preprocessing and postprocessing code:
+This file is an Augmented ONNX file as it has additional preprocessing and postprocessing code:
 - The preprocessing includes a tokenizer (eg BERT, SENTENCEPIECE, GPT2 or ROBERTA).
 - The post processing includes a weighted average
 - The model is also quantized to reduce its size
+- The ONNX file needs to be less than 1 GB to be able to be loaded into Oracle Database 23ai
