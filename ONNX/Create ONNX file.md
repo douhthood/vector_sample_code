@@ -12,4 +12,27 @@ export PATH=$ORACLE_HOME/python/bin:$PATH
 python -V
 ```
 
+Unzip the OML4Py zip file and install the Python dependencies
 
+```SQL
+unzip omlutils.zip
+python -m pip install -r requirements.txt
+```
+
+Install the OML4Py Pytohn library
+
+```SQL
+python -m pip install omlutils-0.14.0-cp312-cp312-linux_x86_64.whl
+```
+
+Run the Python interpreter
+
+```SQL
+python
+from omlutils import EmbeddingModel, EmbeddingModelConfig
+em = EmbeddingModel(model_name="sentence-transformers/all-MiniLM-L6-v2")
+em.export2file("all-MiniLM-L6-v2",output_dir=".")
+exit()
+```
+
+This creates an augmented ONNX file called all-MiniLM-L6-v2.onnx in the current working directory.
