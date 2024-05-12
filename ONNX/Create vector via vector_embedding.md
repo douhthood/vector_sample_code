@@ -75,3 +75,9 @@ SELECT
   VECTOR_EMBEDDING(doc_model USING str as data) as v
 FROM vec1;
 ```
+
+Insert a new row creating the vector on the fly
+
+```SQL
+INSERT INTO vec2 values (11, 'Eggs can be brown or white', VECTOR_EMBEDDING(doc_model USING 'Eggs can be brown or white' as data) );
+```
