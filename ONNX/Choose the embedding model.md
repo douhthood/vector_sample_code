@@ -1,6 +1,6 @@
 # Choose the embedding model from Hugging Face
 
-Hugging Face has a large number of open source vector embedding models.  Vector embedding models built using the [Sentence Transformers](https://sbert.net/) library can be converted into the [ONNX](https://onnx.ai/) format via the Oracle OML4Py library. 
+Hugging Face has a large number of open source vector embedding models.  Vector embedding models built using the [Sentence Transformers](https://sbert.net/) library can be converted into the [ONNX](https://onnx.ai/) format via the Oracle OML4Py Python library. 
 
 The following (English only) vector embedding models are known to work with the vector_embedding SQL function.
 
