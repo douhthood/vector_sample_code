@@ -111,3 +111,17 @@ BEGIN
 END;
 /
 ```
+
+Use PLSQL for Similairty Search
+
+```SQL
+DECLARE
+  vec VECTOR;
+  query varchar2(128) := 'Eggs';
+
+BEGIN
+  SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
+
+END;
+/
+```
