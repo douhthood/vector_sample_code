@@ -38,5 +38,13 @@ INSERT INTO vec1 (id, str) VALUES (8, 'Mary had a little lamb');
 INSERT INTO vec1 (id, str) VALUES (9, 'Its fleece was white as snow');
 INSERT INTO vec1 (id, str) VALUES (10, 'Did Mary have any sea shells?');
 
+COMMIT;
+```
 
+Create a vector for the str column with id = 2;
+
+```SQL
+SELECT VECTOR_EMBEDDING(doc_model USING str as data) AS embedding
+FROM vec1
+WHERE id = 2;
 ```
