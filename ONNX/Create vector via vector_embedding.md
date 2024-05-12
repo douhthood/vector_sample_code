@@ -72,6 +72,6 @@ CREATE TABLE vec2 as
 SELECT
   id,
   str,
-  VECTOR_EMBEDDING(doc_model USING str as data)
+  VECTOR_EMBEDDING(doc_model USING str as data) as v
 FROM vec1;
 ```
