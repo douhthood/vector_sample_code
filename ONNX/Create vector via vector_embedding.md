@@ -112,7 +112,7 @@ END;
 /
 ```
 
-Use PLSQL for Similarity Search
+Use PLSQL for Similarity Search. This hard-codes the input as 'Oval'.
 
 ```SQL
 SET SERVEROUTPUT ON;
@@ -139,31 +139,14 @@ END;
 /
 ```
 
-Use SQL for Similarity Search
 
-```SQL
-ACCEPT text_input CHAR PROMPT 'Enter text: '
-VARIABLE text_variable VARCHAR2(1000)
-VARIABLE query_vector VECTOR
-BEGIN
-  :text_variable := '&text_input';
-  SELECT vector_embedding(doc_model using :text_variable as data) into :query_vector;
-END;
-/
- 
-SELECT str
-FROM vec2
-ORDER BY VECTOR_DISTANCE(v, :query_vector, COSINE)
-FETCH APPROX FIRST 3 ROWS ONLY; 
-```
-
-Use SQL for Similarity Search - Part 1
+Use SQL for Similarity Search - Part 1 - Get the query string
 
 ```SQL
 ACCEPT text_input CHAR PROMPT 'Enter text: '
 ```
 
-Use SQL for Similarity Search - Part 2
+Use SQL for Similarity Search - Part 2 - Run the Similairity Search 
 
 ```SQL
 VARIABLE text_variable VARCHAR2(1000)
