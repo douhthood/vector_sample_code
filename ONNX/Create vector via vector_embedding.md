@@ -112,15 +112,28 @@ END;
 /
 ```
 
-Use PLSQL for Similairty Search
+Use PLSQL for Similarity Search
 
 ```SQL
+SET SERVEROUTPUT ON;
+
 DECLARE
   vec VECTOR;
   query varchar2(128) := 'Eggs';
 
+  CURSOR cur1 IS
+    SELECT str
+  FROM vec2
+  ORDEER BY VECTOR_DISTANCE(v, vec, COSINE)
+  FETCH APPROX FIRST 3 ROWS ONLY;
+
 BEGIN
-  SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
+
+  SELECT VECTOR_EMBEDDING(doc_model USING query as data) INTO vec;
+
+  FOR item IN cur1 LOOP
+    DBMS_OUTPUT.PUT_LINE(item.str);
+  END LOOP;
 
 END;
 /
