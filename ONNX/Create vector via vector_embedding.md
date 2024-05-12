@@ -64,3 +64,14 @@ SELECT
   VECTOR_EMBEDDING(doc_model USING 'Hello' as data) AS hello_embedding
 FROM vec1;
 ```
+
+Create a table as based on a table with vectors created on the fly
+
+```SQL
+CREATE TABLE vec2 as
+SELECT
+  id,
+  str,
+  VECTOR_EMBEDDING(doc_model USING str as data)
+FROM vec1;
+```
