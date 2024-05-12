@@ -26,6 +26,8 @@ SELECT VECTOR_EMBEDDING(doc_model USING 'The quick brown fox' as data) AS embedd
 ```
 
 In this example, we will create a table with some data and then vectorize it.
+There are only ten rows of data which limits the benefit of Similairty Search.
+Another Similairty Search demo will use more data.
 
 ```SQL
 CREATE TABLE vec1 (
