@@ -13,7 +13,7 @@ The following (English only) vector embedding models are known to work with the 
 <img src="../Getting%20Started/images/ONNX_English_only_embedding.png" width="768" alt="English only embedding model"/>
 
 Comments on the English only vector embedding models:
-- The sentence-transformers/all-MiniLM-L6-v2 is by far the most downloaded embedding model
+- The [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) is by far the most downloaded embedding model
   - It is not the best quality embedding model (99th out of 220 on the [MTEB Leader board](https://huggingface.co/spaces/mteb/leaderboard) and 56.26 out of 100)
   - It has OK performance
   - It is often used as an example in blogs and YouTube videos, so people tend to also use it 
