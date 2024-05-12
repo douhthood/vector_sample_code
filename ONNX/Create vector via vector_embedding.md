@@ -65,7 +65,7 @@ SELECT
 FROM vec1;
 ```
 
-Create a table as based on a table with vectors created on the fly
+Create a table based on an existing table with the vectors created on the fly
 
 ```SQL
 CREATE TABLE vec2 as
