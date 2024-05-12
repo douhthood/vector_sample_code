@@ -5,6 +5,8 @@ This assumes that you have completed the prior ONNX tasks
 - [Create an Augmented ONNX file from the embedding model](../ONNX/Create%20ONNX%20file.md)
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 
+<br>
+
 Create a vector via the vector_embedding SQL function using 'hello' as the input
 
 ```SQL
