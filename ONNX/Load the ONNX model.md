@@ -1,3 +1,14 @@
 # Load the ONNX model into Oracle Database 23ai
 
-Stuff
+The Augumented ONNX file needs to be securely loaded into Oracle Database 23ai.
+
+As the PDP SYS user, grant some privileges to a user and create a directory object for the ONNX file.
+
+```SQL
+sqlplus sys@localhost:1521/freepdb1 as sysdba
+
+grant create mining model to vector;
+create or replace directory DM_DUMP as '/home/oracle/omlutil';
+grant read on directory dm_dump to vector;
+exit
+```
