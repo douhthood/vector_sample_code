@@ -23,7 +23,6 @@ EXECUTE DBMS_VECTOR.LOAD_ONNX_MODEL( 'DM_DUMP', 'all-MiniLM-L6-v2.onnx', 'doc_mo
 Create a vector via the vector_embedding SQL function
 
 ```SQL
-SELECT TO_VECTOR(VECTOR_EMBEDDING(doc_model USING 'hello' as data)) AS embedding;
-
+SET PAGES 999
 SELECT VECTOR_EMBEDDING(doc_model USING 'hello' as data) AS embedding;
 ```
