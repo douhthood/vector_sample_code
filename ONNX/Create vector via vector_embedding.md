@@ -156,3 +156,25 @@ FROM vec2
 ORDER BY VECTOR_DISTANCE(v, :query_vector, COSINE)
 FETCH APPROX FIRST 3 ROWS ONLY; 
 ```
+
+Use SQL for Similarity Search - Part 1
+
+```SQL
+ACCEPT text_input CHAR PROMPT 'Enter text: '
+```
+
+Use SQL for Similarity Search - Part 2
+
+VARIABLE text_variable VARCHAR2(1000)
+VARIABLE query_vector VECTOR
+BEGIN
+  :text_variable := '&text_input';
+  SELECT vector_embedding(doc_model using :text_variable as data) into :query_vector;
+END;
+/
+ 
+SELECT str
+FROM vec2
+ORDER BY VECTOR_DISTANCE(v, :query_vector, COSINE)
+FETCH APPROX FIRST 3 ROWS ONLY; 
+```
