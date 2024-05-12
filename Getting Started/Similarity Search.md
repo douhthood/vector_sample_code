@@ -4,7 +4,8 @@ Similarity Search can be done with either the vectors created inside or outside 
 
 Examples with vectors created inside Oracle Database 23ai:
 - [SqlPlus and PLSQL](../ONNX/Create%20vector%20via%20vector_embedding.md)
-- b
+
+<br>
 
 Examples with vectors created outside Oracle Database 23ai
 - [python-oracledb](../python-oracledb/README.md)
