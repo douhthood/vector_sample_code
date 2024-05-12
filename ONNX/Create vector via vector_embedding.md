@@ -97,3 +97,17 @@ BEGIN
 END;
 /
 ```
+
+Use PLSQL to create a vector and then insert it
+
+```SQL
+DECLARE
+  vec VECTOR;
+
+BEGIN
+  SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
+
+  INSERT INTO vec2 VALUES (12, 'Eggs', vec);
+END;
+/
+```
