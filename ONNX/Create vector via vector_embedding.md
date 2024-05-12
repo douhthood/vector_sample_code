@@ -151,5 +151,8 @@ BEGIN
 END;
 /
  
-PRINT query_vector
+SELECT str
+FROM vec2
+ORDER BY VECTOR_DISTANCE(v, :query_vector, COSINE)
+FETCH APPROX FIRST 3 ROWS ONLY; 
 ```
