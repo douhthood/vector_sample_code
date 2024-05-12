@@ -22,6 +22,8 @@ Comments on the English only vector embedding models:
   - The quality is slightly better than all-MiniLM-L6-v2
 - The [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) has the best quality in the table and 3rd most downloaded embedding model  
 
+<br>
+
 The following (multi-lingual) vector embedding models are known to work with the vector_embedding SQL function.
 
 <img src="../Getting%20Started/images/ONNX_Multilingual_embedding.png" width="768" alt="English only embedding model"/>
@@ -31,3 +33,14 @@ Comments on the Multi-lingual only vector embedding models:
   - It has the worst quality (194th/220)
 - The [intfloat/multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) embedding model has the best quality
 
+There tends to be a relationship between the (number of dimensions + the number of parameters) and the quality of the vectors.  ie bigger vectors tend to have better quality as there is more metadata available to represent the meaning of the text.
+The inverse is also usually true.  ie the smaller the vectors the lower the quality + the faster the vectors.
+
+In the perfect world, you have the best quality vectors + the fastest performance.
+
+## Conclusion
+There is not such thing as the best vector embedding model. 
+You should choose your embedding model based on several criteria:
+- Whether you need a multi-linugal embedding model
+- The quality of the embedding model given your data and use cases
+- The performance of the embedding model
