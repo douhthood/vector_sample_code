@@ -3,7 +3,9 @@
 Similarity Search can be done with either the vectors created inside or outside Oracle Database 23ai.
 
 Examples with vectors created inside Oracle Database 23ai:
-- [SqlPlus and PLSQL](../ONNX/Create%20vector%20via%20vector_embedding.md)
+- [SqlPlus and PLSQL](../ONNX/Create%20vector%20via%20vector_embedding.md) - with 10 rows of data from scratch
+- [SqlPlus and PLSQL](../ONNX/Create%20vector%20via%20vector_embedding.md) - with 130 rows of data 
+
 
 <br>
 
