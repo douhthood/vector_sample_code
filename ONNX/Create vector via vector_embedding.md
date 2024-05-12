@@ -138,3 +138,12 @@ BEGIN
 END;
 /
 ```
+
+Use SQL for Similarity Search
+
+```SQL
+SELECT str
+FROM vec2
+ORDER BY VECTOR_DISTANCE(v, select VECTOR_EMBEDDING(doc_model USING 'Eggs' as data), COSINE)
+FETCH APPROX FIRST 3 ROWS ONLY;
+```
