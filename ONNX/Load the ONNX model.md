@@ -24,4 +24,6 @@ Create a vector via the vector_embedding SQL function
 
 ```SQL
 SELECT TO_VECTOR(VECTOR_EMBEDDING(doc_model USING 'hello' as data)) AS embedding;
+
+SELECT VECTOR_EMBEDDING(doc_model USING 'hello' as data) AS embedding;
 ```
