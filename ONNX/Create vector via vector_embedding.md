@@ -49,9 +49,17 @@ FROM vec1
 WHERE id = 2;
 ```
 
-Create vectors for all of the str column;
+Create vectors for all of the str columns.
 
 ```SQL
 SELECT VECTOR_EMBEDDING(doc_model USING str as data) AS embedding
+FROM vec1;
+```
+
+Create multiple vectors, one for each of the str columns, and for the string 'Hello'
+
+```SQL
+SELECT VECTOR_EMBEDDING(doc_model USING str as data) AS str_embedding,
+SELECT VECTOR_EMBEDDING(doc_model USING 'Hello' as data) AS hello_embedding,
 FROM vec1;
 ```
