@@ -85,7 +85,7 @@ INSERT INTO vec2 values (11, 'Eggs can be brown or white', VECTOR_EMBEDDING(doc_
 Use PLSQL to create a vector
 
 ```SQL
-SET SERVER OUTPUT ON;
+SET SERVEROUTPUT ON;
 
 DECLARE
   vec VECTOR;
@@ -93,7 +93,8 @@ DECLARE
 BEGIN
   SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
 
-  vec := VECTOR_EMBEDDING(doc_model USING 'Eggs' as data);
+  DBMS_OUTPUT.PUT_LINE(FROM_VECTOR(vec));
+ -- vec := VECTOR_EMBEDDING(doc_model USING 'Eggs' as data);
 END;
 /
 ```
