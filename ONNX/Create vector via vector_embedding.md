@@ -147,13 +147,13 @@ END;
 ```
 
 
-Use SqlPlus for Similarity Search - Part 1 - Get the query string
+Use SqlPlus for Similarity Search - **Part 1 - Get the query string**
 
 ```SQL
 ACCEPT text_input CHAR PROMPT 'Enter text: '
 ```
 
-Use SqlPlus for Similarity Search - Part 2 - Run the Similairity Search 
+Use SqlPlus for Similarity Search - **Part 2 - Run the Similairity Search** 
 
 ```SQL
 VARIABLE text_variable VARCHAR2(1000)
