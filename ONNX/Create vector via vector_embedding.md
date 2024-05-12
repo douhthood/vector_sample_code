@@ -119,7 +119,7 @@ SET SERVEROUTPUT ON;
 
 DECLARE
   vec VECTOR;
-  query varchar2(128) := 'Eggs';
+  query varchar2(128) := 'Ocean';
 
   CURSOR cur1 IS
     SELECT str
