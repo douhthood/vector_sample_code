@@ -1,12 +1,6 @@
 # Choose the embedding model from Hugging Face
 
 Hugging Face has a large number of open source vector embedding models.  Vector embedding models built using the [Sentence Transformers](https://sbert.net/) library can be converted into the [ONNX](https://onnx.ai/) format via the Oracle OML4Py Python library. 
-
-A vector database is only as good as the vector embedding models that it uses:
-- You want a good balance between the quality of the vector embedding model and the performance of the embedding model
-- A random number generator may be simple and fast, but it will have zero quality as an embedding model
-- An embeding model which has perfect quality, but takes minutes to create a vector is not practical
- 
     
 The following (English only) vector embedding models are known to work with the [vector_embedding](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/vector_embedding.html#GUID-5ED78260-6D21-4B6B-86E0-A1E70EFA11CA) SQL function.
 
@@ -37,6 +31,11 @@ There tends to be a relationship between the (number of dimensions + the number 
 The inverse is also usually true.  ie the smaller the vectors the lower the quality + the faster the vectors.
 
 In the perfect world, you have the best quality vectors + the fastest performance.
+
+A vector database is only as good as the vector embedding models that it uses:
+- You want a good balance between the quality of the vector embedding model and the performance of the embedding model
+- A random number generator may be simple and fast, but it will have zero quality as an embedding model
+- An embeding model which has perfect quality, but takes minutes to create a vector is not practical
 
 ## Conclusion
 There is not such thing as the best vector embedding model. 
