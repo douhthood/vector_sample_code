@@ -26,5 +26,8 @@ The following (multi-lingual) vector embedding models are known to work with the
 
 <img src="../Getting%20Started/images/ONNX_Multilingual_embedding.png" width="768" alt="English only embedding model"/>
 
-
+Comments on the Multi-lingual only vector embedding models:
+- The [distiluse-base-multilingual-cased-v2](https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2) embedding models is the most downloaded
+  - It has the worst quality (194th/220)
+- The [intfloat/multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) embedding model has the best quality
 
