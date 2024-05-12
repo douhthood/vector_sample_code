@@ -17,7 +17,10 @@ Comments on the English only vector embedding models:
   - It is not the best quality embedding model (99th/220 on the [MTEB Leader board](https://huggingface.co/spaces/mteb/leaderboard) with a score of 56.26/100)
   - It has OK performance
   - It is often used as an example in blogs and YouTube videos, so people tend to also use it 
-- The 
+- The [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) is the second most downloaded embedding model
+  - It is slower than all-MiniLM-L6-v2
+  - The quality is slightly better than all-MiniLM-L6-v2
+- The [BAII/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) has the best quality in the table and 3rd most downloaded embedding model  
 
 The following (multi-lingual) vector embedding models are known to work with the vector_embedding SQL function.
 
