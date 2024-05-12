@@ -44,3 +44,8 @@ You should choose your embedding model based on several criteria:
 - Whether you need a multi-linugal embedding model
 - The quality of the embedding model given your data and use cases
 - The performance of the embedding model
+
+Another way of saying this is the following:
+- If you need to support any non-English language, eg (Japanese, Spanish, Thai, Mandarin, Turkish), then it does not matter how good or fast the English only embedding model is
+- If the embedding model does not give good results, then it does not matter how fast that it is
+- If you can get the same quality from two different embedding models, then choose the one which is faster
