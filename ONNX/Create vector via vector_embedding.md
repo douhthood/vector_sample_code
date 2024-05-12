@@ -93,7 +93,7 @@ DECLARE
 BEGIN
   SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
 
-  DBMS_OUT_PUT.PUT_LINE(vec);
+  DBMS_OUTPUT.PUT_LINE(vec);
 END;
 /
 ```
