@@ -13,4 +13,5 @@ The **output** of the vector_embedding SQL function is the **vector**.
 Setup for using the vector_embedding SQL function
 - [Choose the Sentence Transformer vector embedding model from Hugging Face](Choose%20the%20embedding%20model.md)
 - [Create an Augmented ONNX file from the embedding model](../ONNX/Create%20ONNX%20file.md)
-- Load the embedding model into Oracle Database 23ai
+- [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
+- [Create a vector via the vector_embedding SQL function]()
