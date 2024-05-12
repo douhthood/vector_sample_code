@@ -6,4 +6,8 @@ The following (English only) vector embedding models are known to work with the 
 
 <img src="../Getting%20Started/images/ONNX_English_only_embedding.png" width="768" alt="English only embedding model"/>
 
-foo
+The following (multi-lingual) vector embedding models are known to work with the vector_embedding SQL function.
+
+<img src="../Getting%20Started/images/ONNX_Multilingual_embedding.png" width="768" alt="English only embedding model"/>
+
+Foo
