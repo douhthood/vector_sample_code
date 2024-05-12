@@ -17,3 +17,15 @@ Create a vector via the vector_embedding SQL function using 'The quick brown fox
 ```SQL
 SELECT VECTOR_EMBEDDING(doc_model USING 'The quick brown fox' as data) AS embedding;
 ```
+
+In this example, we will create a table with some data and then vectorize it.
+
+```SQL
+CREATE TABLE vec1 (
+  id  NUMBER PRIMARY KEY,
+  str VARCHAR2(128),
+  v   VECTOR
+);
+
+INSERT INTO vec1 (id, str) VALUES (1, 'The quick brown foxi jumped over the lazy dog');
+```
