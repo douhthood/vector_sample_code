@@ -1,3 +1,3 @@
-# Vectorize more data using the vector_embeding SQL function
+# Vectorize more data using vector_embeding
 
 Stuff
