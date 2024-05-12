@@ -81,3 +81,15 @@ Insert a new row creating the vector on the fly
 ```SQL
 INSERT INTO vec2 values (11, 'Eggs can be brown or white', VECTOR_EMBEDDING(doc_model USING 'Eggs can be brown or white' as data) );
 ```
+
+Use PLSQL to create a vector
+
+```SQL
+DECLARE
+  vec VECTOR;
+
+BEGIN
+  SELECT VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) INTO vec;
+END;
+/
+```
