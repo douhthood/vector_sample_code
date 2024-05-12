@@ -1,3 +1,3 @@
 # C# Vector Demos
 
-need some content here
+This sample code uses OpenAI and Cohere to create vectors via their public REST endpoints.
