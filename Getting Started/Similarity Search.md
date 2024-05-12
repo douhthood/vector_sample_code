@@ -7,7 +7,7 @@ Examples with query vectors created inside Oracle Database 23ai:
 - b
 
 Examples with query vectors created outside Oracle Database 23ai
-- [python-oracledb](python-oracledb/README.md)
+- [python-oracledb](../python-oracledb/README.md)
 - node-oracledb
 - JDBC
 - ODP.NET
