@@ -6,6 +6,6 @@ The C# code parses the JSON response and extracts the relevant vectors.
 
 The sample programs are:
 - [Vectorize the table with OpenAI](OpenAI_VectorizeTable.cs)
-- [Similairty Search with OpenAI]()
-- [Vectorize the table with Cohere]()
-- [Similairty Search with Cohere]()
+- [Similarity Search with OpenAI](OpenAI_SimilaritySearch.cs)
+- [Vectorize the table with Cohere](Cohere_VectorizeTable.cs)
+- [Similairty Search with Cohere](Cohere_SimilaritySearch.cs)
