@@ -10,4 +10,8 @@ The following (multi-lingual) vector embedding models are known to work with the
 
 <img src="../Getting%20Started/images/ONNX_Multilingual_embedding.png" width="768" alt="English only embedding model"/>
 
-Foo
+A vector database is only as good as the vector embedding models that it uses:
+- You want a good balance between the quality of the vector embedding model and the performance of the embedding model
+  - A random number generator may be simple and fast, but it will have zero quality as an embedding model
+  - An embeding model which has perfect quality, but takes minutes to create a vector is not practical
+- a
