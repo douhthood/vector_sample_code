@@ -4,6 +4,6 @@ Hugging Face has a large number of open source vector embedding models.  Vector 
 
 The following vector embedding models are known to work with the vector_embedding SQL function.
 
-<img src="../Getting%20Started/images/ONNX_English_only_embedding.png" width="384" alt="English only embedding model"/>
+<img src="../Getting%20Started/images/ONNX_English_only_embedding.png" width="768" alt="English only embedding model"/>
 
 foo
