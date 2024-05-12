@@ -142,8 +142,14 @@ END;
 Use SQL for Similarity Search
 
 ```SQL
-SELECT str
-FROM vec2
-ORDER BY VECTOR_DISTANCE(v, select VECTOR_EMBEDDING(doc_model USING 'Eggs' as data) as vec, COSINE)
-FETCH APPROX FIRST 3 ROWS ONLY;
+ACCEPT text_input CHAR PROMPT 'Enter text: '
+VARIABLE text_variable VARCHAR2(1000)
+VARIABLE query_vector VECTOR
+BEGIN
+  :text_variable := '&text_input';
+  SELECT vector_embedding(doc_model using :text_variable as data) into :query_vector;
+END;
+/
+ 
+PRINT query_vector
 ```
