@@ -35,4 +35,4 @@ em.export2file("all-MiniLM-L6-v2",output_dir=".")
 exit()
 ```
 
-This creates an augmented ONNX file called all-MiniLM-L6-v2.onnx in the current working directory.
+This creates an augmented ONNX file called **all-MiniLM-L6-v2.onnx** in the current working directory.
