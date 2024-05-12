@@ -1,7 +1,15 @@
 # Create an Augmented ONNX File
 
-Given a desired Sentence Transformer vector embedding model from Hugging Face, you can create the Augmented ONNX File for that model.
-
 In this example, we will use the popular [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) embedding model from Hugging Face.
 
-Foo
+In this example, we will create the ONNX file on the same machine as the Oracle Database 23ai Free server.
+
+As the **oracle** Linux user, using a bash shell, set the PATH.
+Make sure that Python 3.12+ is being used.
+
+```SQL
+export PATH=$ORACLE_HOME/python/bin:$PATH
+python -V
+```
+
+
