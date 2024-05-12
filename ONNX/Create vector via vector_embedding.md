@@ -27,5 +27,16 @@ CREATE TABLE vec1 (
   v   VECTOR
 );
 
-INSERT INTO vec1 (id, str) VALUES (1, 'The quick brown foxi jumped over the lazy dog');
+INSERT INTO vec1 (id, str) VALUES (1, 'The quick brown fox jumped over the lazy dog');
+INSERT INTO vec1 (id, str) VALUES (2, 'The rain stays mainly on the plains');
+INSERT INTO vec1 (id, str) VALUES (3, 'She sells sea shells on the sea shore');
+INSERT INTO vec1 (id, str) VALUES (4, 'Humpty Dumpty sat on a wall');
+INSERT INTO vec1 (id, str) VALUES (5, 'Humpty Dumpty had a great fall');
+INSERT INTO vec1 (id, str) VALUES (6, 'Was Humpty Dumpty an egg?');
+INSERT INTO vec1 (id, str) VALUES (7, 'Eggs are egg shaped');
+INSERT INTO vec1 (id, str) VALUES (8, 'Mary had a little lamb');
+INSERT INTO vec1 (id, str) VALUES (9, 'Its fleece was white as snow');
+INSERT INTO vec1 (id, str) VALUES (10, 'Did Mary have any sea shells?');
+
+
 ```
