@@ -19,10 +19,3 @@ As the vector user, load the ONNX model into Oracle Database 23ai and name it **
 sqlplus vector/vector@freepdb1
 EXECUTE DBMS_VECTOR.LOAD_ONNX_MODEL( 'DM_DUMP', 'all-MiniLM-L6-v2.onnx', 'doc_model', JSON('{"function" : "embedding", "embeddingOutput" : "embedding", "input": {"input": ["DATA"]}}'));
 ```
-
-Create a vector via the vector_embedding SQL function
-
-```SQL
-SET PAGES 999
-SELECT VECTOR_EMBEDDING(doc_model USING 'hello' as data) AS embedding;
-```
