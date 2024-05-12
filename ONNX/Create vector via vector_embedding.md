@@ -165,6 +165,7 @@ ACCEPT text_input CHAR PROMPT 'Enter text: '
 
 Use SQL for Similarity Search - Part 2
 
+```SQL
 VARIABLE text_variable VARCHAR2(1000)
 VARIABLE query_vector VECTOR
 BEGIN
