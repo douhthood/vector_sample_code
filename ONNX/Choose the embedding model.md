@@ -8,7 +8,7 @@ A vector database is only as good as the vector embedding models that it uses:
 - An embeding model which has perfect quality, but takes minutes to create a vector is not practical
  
     
-The following (English only) vector embedding models are known to work with the vector_embedding SQL function.
+The following (English only) vector embedding models are known to work with the [vector_embedding](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/vector_embedding.html#GUID-5ED78260-6D21-4B6B-86E0-A1E70EFA11CA) SQL function.
 
 <img src="../Getting%20Started/images/ONNX_English_only_embedding.png" width="768" alt="English only embedding model"/>
 
