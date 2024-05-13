@@ -1,6 +1,7 @@
 # Vectorize more data using vector_embeding
 
-In this example, we will first create a table without the vectors.
+In this example, we will first create a table without the vectors:
+- [Create table and load data](Insert%20more%20data.md)
 
 There are multiple ways to vectorize the data:
 - a
