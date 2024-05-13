@@ -3,10 +3,14 @@
 In this example, we will first create a table without the vectors:
 - [Create table and load data](Insert%20more%20data.md)
 
+<br>
+
 There are multiple ways to vectorize the data:
-- [Create a new table based on the exidting table]()
+- [Create a new table based on the existing table]()
 - [Use a PLSQL cursor and batch update]()
 - [Use a stored procedure]()
+
+<br>
 
 ## Now we can do the Similarity Search using SqlPlus and PLSQL
 
