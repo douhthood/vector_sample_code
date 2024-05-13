@@ -146,3 +146,4 @@ insert into my_data values (1105, 'Mumbai has a population of about 12.5 million
 insert into my_data values (1106, 'Mumbai is hot with an average minimum temperature of 24 degrees Celsius.', null);
 insert into my_data values (1107, 'Common languages in Mumbai are Marathi, Hindi, Gujarati, Urdu, Bambaiya and English.', null);
 commit;
+```
