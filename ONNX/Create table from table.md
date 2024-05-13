@@ -7,7 +7,7 @@ Create a new table based on the existing data and create vectors on the fly
 ```SQL
 CREATE TABLE my_data2 as SELECT
   id,
-  str,
-  vector_embedding(doc_model using str as data) as v
+  info,
+  VECTOR_EMEBEDDING(doc_model using info as data) as v
 FROM my_data;
 ```
