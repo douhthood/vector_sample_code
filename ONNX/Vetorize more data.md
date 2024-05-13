@@ -8,7 +8,7 @@ In this example, we will first create a table without the vectors:
 There are multiple ways to vectorize the data:
 - [Create a new table based on the existing table](Create%20table%20from%20table.md)
 - [Use a PLSQL cursor and do batch updates](PLSQL%20batch%20update.md)
-- [Use a stored procedure for batch updates]()
+- [Use a stored procedure for batch updates](PLSQL%20stored%20procedure.md)
 
 <br>
 
