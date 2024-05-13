@@ -8,6 +8,6 @@ Create a new table based on the existing data and create vectors on the fly
 CREATE TABLE my_data2 as SELECT
   id,
   info,
-  VECTOR_EMEBEDDING(doc_model using info as data) as v
+  VECTOR_EMBEDDING(doc_model using info as data) as v
 FROM my_data;
 ```
