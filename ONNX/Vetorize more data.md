@@ -2,9 +2,32 @@
 
 In this example, we will first create a table without the vectors.
 
-There are multiple ways to vectorzie the data:
+There are multiple ways to vectorize the data:
 - a
 - b
 - c
 
-Now we can do the Similarity Search using SqlPlus and PLSQL
+## Now we can do the Similarity Search using SqlPlus and PLSQL
+
+Use SqlPlus for Similarity Search - **Part 1 - Get the query string**
+
+```SQL
+ACCEPT text_input CHAR PROMPT 'Enter text: '
+```
+
+Use SqlPlus for Similarity Search - **Part 2 - Run the Similarity Search** 
+
+```SQL
+VARIABLE text_variable VARCHAR2(1000)
+VARIABLE query_vector VECTOR
+BEGIN
+  :text_variable := '&text_input';
+  SELECT vector_embedding(doc_model using :text_variable as data) into :query_vector;
+END;
+/
+ 
+SELECT str
+FROM vec2
+ORDER BY VECTOR_DISTANCE(v, :query_vector, COSINE)
+FETCH APPROX FIRST 3 ROWS ONLY; 
+```
