@@ -8,7 +8,7 @@
 - [Attribute Filtering](Attribute%20Filtering.md)
 - [Multi-vector support](Multi%20Vector.md)
 - [ONNX Support](../ONNX/ONNX%20Support.md)
-- [Create vetors outside the database](Sample%20Code.md)
+- [Create vectors outside the database](Sample%20Code.md)
 - [Similarity Search](Similarity%20Search.md)
 - [LangChain Support](LangChain%20Support.md)
 - [Language Support](Language%20Support.md)
