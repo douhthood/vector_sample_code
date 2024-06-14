@@ -19,7 +19,7 @@ unzip omlutils.zip
 python -m pip install -r requirements.txt
 ```
 
-Install the OML4Py Pytohn library
+Install the OML4Py Python library
 
 ```SQL
 python -m pip install omlutils-0.14.0-cp312-cp312-linux_x86_64.whl
