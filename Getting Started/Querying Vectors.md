@@ -28,7 +28,7 @@ ORDER BY vector_distance(embedding, VECTOR('[3,1,2]'), EUCLIDEAN)
 FETCH FIRST 3 ROWS ONLY;
 ```
 
-Get the nearest neighbors to a vectro in a row
+Get the nearest neighbors to a vector in a row
 
 ```SQL
 SELECT *
