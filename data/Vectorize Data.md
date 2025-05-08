@@ -1,8 +1,8 @@
 # Vectorize the text in table my_data 
 
 Use ONNX in the database to vectorize the data:
-- foo
-- bar
+- [Download a pre-built Augmented ONNX embedding model](../ONNX/Download%20prebuilt%20Augmented%20ONNX%20file.md)
+- [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 
 ```SQL
 set serveroutput on;
