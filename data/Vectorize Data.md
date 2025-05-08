@@ -1,4 +1,4 @@
-# Vectorize all of the text in the info column of the my_data table
+# Vectorize the text in table my_data 
 
 Use ONNX in the database to vectorize the data:
 - foo
