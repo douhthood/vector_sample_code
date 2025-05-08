@@ -4,6 +4,8 @@ Use ONNX in the database to vectorize the data:
 - [Download a pre-built Augmented ONNX embedding model](../ONNX/Download%20prebuilt%20Augmented%20ONNX%20file.md)
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 
+The table is small, so it can all be loaded into a PLSQL table and updated in a single transaction.
+
 ```SQL
 set serveroutput on;
 set timing on;
