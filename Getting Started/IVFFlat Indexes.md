@@ -18,9 +18,8 @@ Your IVFFlat vector indexes will benefit by storing metadata in the vector pool.
 ```SQL
 CREATE VECTOR INDEX flex3_embedding_ivfflat ON flex3 (embedding)
 ORGANIZATION NEIGHBOR PARTITIONS 
-WITH TARGET ACCURACY 90
-DISTANCE COSINE
-PARALLEL 4;
+WITH TARGET ACCURACY 95
+DISTANCE COSINE;
 ```
 
 ```SQL
@@ -30,7 +29,7 @@ DROP INDEX flex3_embedding_ivfflat;
 ```SQL
 CREATE VECTOR INDEX ivfflat2 ON flex3 (embedding)
 ORGANIZATION NEIGHBOR PARTITIONS 
-WITH TARGET ACCURACY 80
+WITH TARGET ACCURACY 85
 DISTANCE DOT
 PARALLEL 8; 
 ```
