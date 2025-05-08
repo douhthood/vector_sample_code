@@ -12,7 +12,6 @@ Oracle Database 23ai **includes support for Oracle AI Vector Search**. These ins
 
 ## Prerequisites
 - You can use either **Oracle Linux 8.8+** or **Oracle Linux 9.1+**.
-  - Red Hat Linux, AlmaLinux, Rocky Linux **8.8+ or 9.1+** will also work
   - Oracle Linux 7.x, SuSE Linux and Debian/Ubuntu **will not work** due to RPM dependencies
 - Your Linux VM should have 4+ GB of RAM.
 - You will need 20+ GB of disk space
@@ -25,7 +24,7 @@ You can install Oracle Database 23ai Free on a VM in your x8664 laptop, in your 
 You need to download the relevant RPMs.
 
 ### For Oracle Linux 8
-- [oracle-database-preinstall-23ai-1.0-1.4.el8.x86_64.rpm] [] (https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-23ai-1.0-2.el8.x86_64.rpm) 
+- [oracle-database-preinstall-23ai-1.0-1.4.el8.x86_64.rpm] (https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-23ai-1.0-2.el8.x86_64.rpm) 
 - [oracle-database-free-23ai-23.8-1.el8.x86_64.rpm](https://download.oracle.com/otn-pub/otn_software/db-free/oracle-database-free-23ai-23.8-1.el8.x86_64.rpm)
 
 ### For Oracle Linux 9
