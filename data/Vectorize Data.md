@@ -1,4 +1,8 @@
-# Vectorize all of the text in the INFO column
+# Vectorize all of the text in the info column of the my_data table
+
+Use ONNX in the database to vectorize the data:
+- foo
+- bar
 
 ```SQL
 set serveroutput on;
