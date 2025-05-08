@@ -60,4 +60,5 @@ from my_data
 order by 1;
 ```
 
+The floating point values for the vectors do not mean anything to humans, but they represent the meaning or semantics of the INFO column for that row.
 
