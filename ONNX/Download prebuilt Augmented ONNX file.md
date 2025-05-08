@@ -5,7 +5,7 @@ Currently there are two pre-built Augumented ONNX files
 - [infloat/multilingual-e5-small](https://adwc4pm.objectstorage.us-ashburn-1.oci.customer-oci.com/p/015R3CJrNVHo3cZZVOjquNZUvzYzGqBN108a-R7ATI58wh0u5ljJKeHqJlpKUhkP/n/adwc4pm/b/OML-Resources/o/multilingual_e5_small_augmented.zip) - This is multi-lingual and supports text in 100 languages
 
 
-Now you need to:
+Next you need to:
 - Choose the relevant ZIP file to download
 - Copy this file to a directory on the Linux machine where you are running Oracle Database 23ai.
 - eg /home/oracle/omlutil
