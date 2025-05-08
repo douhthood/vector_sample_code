@@ -47,8 +47,14 @@ begin
 
 end;
 /
-
 ```
 
-Now insert some test data that we can vectorize.
+Now see the newly created vectors:
+
+```SQL
+Select id, v
+from my_data
+order by 1;
+```
+
 
