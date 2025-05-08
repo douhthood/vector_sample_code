@@ -11,6 +11,6 @@ The **output** of the vector_embedding SQL function is the **vector**.
 <br>
 
 Setup for using the vector_embedding SQL function
-- [Download a pre-built Augmentd ONNX file]
+- [Download a pre-built Augmented ONNX file]
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 - [Create a vector via the vector_embedding SQL function](../ONNX/Create%20vector%20via%20vector_embedding.md)
