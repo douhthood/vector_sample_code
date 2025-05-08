@@ -23,9 +23,9 @@ Similarity search is focused on finding related data based on its semantic meani
 The need to identify a match for similar data across large data sets applies to many industries. Examples of similarity search include the following:
 - Semantic search of document
 - Semantic search of images
+- Semantic search of video
 - Recommendation systems
-- Pattern recognition
-- Anomaly and fraud detection
+
 
 ## Retrieval Augmented Generation
 RAG uses the results of similarity search to improve the accuracy and contextual relevance of large language model responses to questions about business data. RAG helps identify contextually relevant private data that the LLM may not have been trained on and then uses it to augment user prompts so LLMs can respond with greater accuracy.
