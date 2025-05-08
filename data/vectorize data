@@ -1,1 +1,13 @@
-#Use an ONNX embedding model to vectorize the data in PLSQL
+# Create a table and load some data
+
+```SQL
+create table my_data (
+  id   number primary key,
+  info varchar2(128),
+  v    vector
+);
+```
+
+Now insert some test data that we can vectorize.
+
+
