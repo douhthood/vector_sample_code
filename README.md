@@ -3,7 +3,8 @@ Sample code for Oracle AI Vector Search.
 
 ## Resources
 - [Overview of Oracle AI Vector Search](Overview/README.md)
-- [How to install AI Vector Search](Installation/README.md) via [Oracle Database 23ai Free](https://www.oracle.com/database/free/get-started/)  
+- [How to install AI Vector Search](Installation/README.md) via [Oracle Database 23ai Free](https://www.oracle.com/database/free/get-started/)
+- [How to install AI Vector Search](Installation/README.md) via [Oracle Database 23ai Free](<a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a>) 
 - [Getting started](Getting%20Started/README.md)
 - [Similarity Search](Getting%20Started/Similarity%20Search.md)
 - [LangChain Support](Getting%20Started/LangChain%20Support.md)
