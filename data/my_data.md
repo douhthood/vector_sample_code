@@ -56,7 +56,7 @@ insert into my_data values (109, 'Hondas are reliable.', NULL);
 insert into my_data values (110, 'Porsches are fast and reliable.', NULL);
 insert into my_data values (111, 'Nissan GTR are great', NULL);
 insert into my_data values (112, 'NISMO is awesome', NULL);
-insert into my_data values (113, 'Tesla Cybertrucks are awesome', NULL);
+insert into my_data values (113, 'Tesla Cybertrucks are different', NULL);
 ```
 
 ```SQL
