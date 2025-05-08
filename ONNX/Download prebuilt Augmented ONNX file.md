@@ -9,3 +9,4 @@ Next you need to:
 - Choose the relevant ZIP file to download
 - Copy this file to a directory on the Linux machine where you are running Oracle Database 23ai.
 - eg /home/oracle/omlutil
+- Unzip the file
