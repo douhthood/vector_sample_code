@@ -52,6 +52,9 @@ end;
 Now see the newly created vectors:
 
 ```SQL
+set pages 999
+set long 9999
+
 Select id, v
 from my_data
 order by 1;
