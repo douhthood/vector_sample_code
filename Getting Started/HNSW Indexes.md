@@ -21,8 +21,7 @@ You must allocate sufficent memory for the [VECTOR_MEMORY_SIZE](../Installation/
 CREATE VECTOR INDEX flex3_embedding_hnsw ON flex3 (embedding)
 ORGANIZATION INMEMORY NEIGHBOR GRAPH
 WITH TARGET ACCURACY 95
-DISTANCE COSINE
-PARALLEL 2;
+DISTANCE COSINE;
 ```
 
 ```SQL
