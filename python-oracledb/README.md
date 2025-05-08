@@ -28,7 +28,7 @@ Set the following environment variable:
 
     CO_API_KEY   # For Cohere-based Similarity search, get the API Key from cohere.com
 
-The following Pytohn module needs to be installed:
+The following Python module needs to be installed:
 
     pip install cohere
 
