@@ -51,3 +51,9 @@ The following embedding models are know to work:
 - 'AdamCodd/vit-base-nsfw-detector'
 - 'trpakov/vit-face-expression'
 - 'BAAI/bge-reranker-base'
+
+If your desired embedding model is not in the above list, then you need to consider:
+- The vector embedding model needs to be either a **Transformer** or a **SentenceTransformer**
+- The model size needs to be less than 1 GB
+- There cannot be any customizations in the model
+- You will need to use the template mechanism to create the Augmented ONNX file
