@@ -7,7 +7,7 @@ Use ONNX in the database to vectorize the data:
 There are three main techniques to bulk vectorize data in tables:
 - Create Table As Select
 - Insert as select
-- PLSQL batch updates
+- [PLSQL batch updates](../data/PLSQL_batch_vectorize.md)
 
 The table is small, so all the vector columns can be updated in a single transaction.
 
