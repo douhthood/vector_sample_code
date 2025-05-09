@@ -5,8 +5,8 @@ Use ONNX in the database to vectorize the data:
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 
 There are three main techniques to bulk vectorize data in tables:
-- Create Table As Select
-- Insert as select
+- [Create Table As Select](../data/Create Table As Select.Md)
+- [Insert as select](../data/Insert As Select.md)
 - [PLSQL batch updates](../data/PLSQL_batch_vectorize.md)
 
 
