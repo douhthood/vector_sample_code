@@ -5,8 +5,6 @@ Using create table as select can be very efficient when used with parallel query
 You need to have an ONNX vector embedding model loaded for this to work:
 - [Download a pre-built Augmented ONNX embedding model](../ONNX/Download%20prebuilt%20Augmented%20ONNX%20file.md)
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
-- [Create a vector via the vector_embedding SQL function](../ONNX/Create%20vector%20via%20vector_embedding.md)
-
 
 ```SQL
 create table my_data2 as
