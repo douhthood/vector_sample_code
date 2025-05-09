@@ -10,7 +10,7 @@ There are three main techniques to bulk vectorize data in tables:
 - [PLSQL batch updates](../data/PLSQL_batch_vectorize.md)
 
 
-**Create table as Select** and **Insert as Select** tend to have similar performance.  You can use **Parallel Query** to dramatically increase the throughput of Create table as select and Insert as Select.  These operations tend to be CPU bound as creating vectors is CPu intensive.  You need to have sufficient CPU cores to be able to effectively scale the throughput.
+**Create table as Select** and **Insert as Select** tend to have similar performance.  You can use **Parallel Query** to dramatically increase the throughput of Create table as Select and Insert as Select.  These operations tend to be CPU bound as creating vectors is CPu intensive.  You need to have sufficient CPU cores to be able to effectively scale the throughput.
 
 Using PLSQL batches, [even with many concurrent sessions], tends to not be as fast as using Create Table As Select or Insert As Select.
 
