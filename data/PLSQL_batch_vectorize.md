@@ -1,4 +1,4 @@
-# Use batch updates to vectorize your data
+# Use PLSQL batch updates to vectorize your data
 
 ```
 SQL
