@@ -7,7 +7,15 @@ You need to have an ONNX vector embedding model loaded for this to work:
 - [Load the embedding model into Oracle Database 23ai](../ONNX/Load%20the%20ONNX%20model.md)
 
 ```SQL
-create table my_data2 as
+create table my_data2 (
+  id   number primary key,
+  info varchar2(128),
+  v    vector
+);
+```
+
+```SQL
+insert into my_data2
 select 
   id, 
   info,
