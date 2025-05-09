@@ -1,6 +1,6 @@
 # Use PLSQL batch updates to vectorize your data
 
-- The number of rows to update could be huge, so do it in matches.
+- The number of rows to update could be huge, so do it in batches.
 - Use PLSQL BULK COLLECT and LIMIT to efficiently get batches of data
 - Use FORALL UPDATE for efficient batch updates
 - Commmit at batch boundaries
