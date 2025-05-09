@@ -1,6 +1,6 @@
 # Use Create Table as Select 
 
-Using create table as select can be very efficient when used with parallel query to maximize the throuhput of bulk vectorizaton.  You need to have sufficient CPU cores to be able to benefit from a high degree of parallelism. 
+Using create table as select can be very efficient when used with parallel query to maximize the throughput of bulk vectorizaton.  You need to have sufficient CPU cores to be able to benefit from a high degree of parallelism. 
 
 You need to have an ONNX vector embedding model loaded for this to work:
 - [Download a pre-built Augmented ONNX embedding model](../ONNX/Download%20prebuilt%20Augmented%20ONNX%20file.md)
