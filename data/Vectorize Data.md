@@ -14,7 +14,7 @@ There are three main techniques to bulk vectorize data in tables:
 
 Using PLSQL batches, [even with many concurrent sessions], tends to not be as fast as using Create Table As Select or Insert As Select.
 
-Now see the newly created vectors:
+Now view your newly created vectors:
 
 ```SQL
 set pages 999
