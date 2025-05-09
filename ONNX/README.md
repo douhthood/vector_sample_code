@@ -17,7 +17,7 @@ Setup for using the vector_embedding SQL function
 
 Rather than using either of the two pre-built Augmented ONNX embedding models, you can instead choose a vector embedding model from HuggingFace.  
 
-The following embedding models are know to work:
+The following embedding models are known to work:
 - 'sentence-transformers/all-mpnet-base-v2'
 - 'sentence-transformers/all-MiniLM-L6-v2'
 - 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1'
